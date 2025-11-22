@@ -1,0 +1,151 @@
+{
+	"Invited Speaker": [
+			{
+				"title": "Bachelor Degree Course in Optics and Optometry (Unito)",
+				"subtitle": "Academic Seminar",
+				"description": "Seminar open to all the students of the Bachelor Degree Course in Optics and Optometry; Seminar title: 'Come funziona ChatGPT?'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_ottica.pdf",            
+				"date": "December 2025"
+			},		
+			{
+				"title": "GPT: gestire, potenziare, trasformare lo studio (UniTo, Turin)",
+				"subtitle": "Academic Seminar",
+				"description": "This event aims at the exploration of how Generative Artificial Intelligence tools can become allies in studying: from organizing activities, to enhancing skills, to discovering new ways of learning. Seminar title: 'Strumenti di IA generativa nello studio '.",
+				"url": "https://laurea.informatica.unito.it/do/avvisi.pl/Show?_id=ll2n",
+				"date": "October 2025"
+			},  
+			{
+				"title": "Folle di Scienza (Strambino, Turin)",
+				"subtitle": "Seminar in Public Event",
+				"description": "Folle di Scienza is a three-day gathering in Strambino that brings together science communicators to co-design and envision the future of science communication, offering valuable opportunities to discuss, exchange ideas, and learn from others. Seminar title: 'AIAIAI: corso di primo soccorso per aspiranti smanettoni'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_folle_di_scienza.pdf",
+				"date": "October 2025"
+			},  			
+			{
+				"title": "Ital_IA: tra dati pubblici e algoritmi (Milan)",
+				"subtitle": "Public Event",
+				"description": "Ital_IA is a conference held at the Politecnico di Milano and organized by Agenzia delle Dogane e dei Monopoli and Sogei S.p.A. exploring data valorization in public administration, focusing on advanced data processing methodologies and AI integration for enhanced government services. Panel title: 'Ricerca e innovazione nel dominio dei dati'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_ital_ia.pdf",
+				"date": "October 2025"
+			},       
+			{
+				"title": "Fanpage.it Rumore Festival 2025 (Rome)",
+				"subtitle": "Public Event",
+				"description": "Rumore is the yearly Fanpage.it festival dedicated to fostering urgent and meaningful dialogue on contemporary issues. I spoke in a panel discussion on artificial intelligence alongside writer Chiara Valerio, moderated by journalist Elisabetta Rosso. The festival featured prominent figures including Roberto Saviano, Matteo Renzi, and Francesca Albanese across various thematic sessions.",
+				"url": "https://rumorefestival.fanpage.it/",
+				"date": "October 2025"
+			},     			
+			{
+				"title": "L'AI va a scuola",
+				"subtitle": "Seminar in Public Event",
+				"description": "'L'AI va a scuola', organized by ANP (associazione nazionale dirigenti pubblici e alta professionalità della scuola), is a series of webinars for school leaders, teachers, students, and families. Seminar Title: '5 punti di partenza sui LLM'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_anp.pdf",
+				"date": "September 2025"
+			},                   
+			{
+				"title": "Antropochip (Bari)",
+				"subtitle": "Public Event",
+				"description": "Antropochip is a science communication initiative at Politecnico di Bari exploring the intersection of technology and human values through an innovative blend of coding and creative expression.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_podcast_antropochip.pdf",          
+				"date": "July 2025"
+			},          
+			{
+				"title": "Università Politecnica delle Marche (UNIVPM)",
+				"subtitle": "Course Seminar",
+				"description": "Corso di Laurea in Ingegneria Informatica e dell'Automazione; Seminar Title: 'Oltre la coltre dell'hype: una introduzione minima ai LLMs'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_seminario_univpm.pdf",
+				"date": "May 2025"
+			},         
+			{
+				"title": "Senti chi parla (Santena, Turin)",
+				"subtitle": "Public Event",
+				"description": "Senti chi parla is an initiative organized by the Biblioteca Civica Santena that aims to communicate current and relevant topics to the general public.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_santena_speaker.pdf",               
+				"date": "May 2025"
+			},          
+			{
+				"title": "Podcast UmAnI (Florence)",
+				"subtitle": "Recorded Event",
+				"description": "UmAnI is a podcast curated by the Department of Physics and Astronomy of the Università degli Studi di Firenze focused on the scientific dissemination for students.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_podcast_umAnI.pdf",                
+				"date": "April 2025"
+			},         
+			{
+				"title": "Dai faraoni a TAZEBAO: soluzioni digitali per la museologia (UniTo, Turin)",
+				"subtitle": "Academic Seminar",
+				"description": "Seminar title: 'Dal plot al prompt: un'architettura per la creazione di storie curatoriali interattive'.",
+				"url": "https://informatica.unito.it/do/avvisi.pl/Show?_id=tve8",
+				"date": "April 2025"
+			},        
+			{
+				"title": "Filosofia versus Intelligenza Artificiale (Maiano Firenze)",
+				"subtitle": "Seminar in Public Event",
+				"description": "Filosofia versus Intelligenza Artificiale is an interdisciplinary conference that explores the intersection of artificial intelligence technology and philosophical inquiry, addressing both technical developments and ethical-humanitarian implications of AI advancement. Seminar title: '5 punti fermi sui Large Language Models'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_aifilosofia.pdf",                   
+				"date": "March 2025"
+			},           
+			{
+				"title": "GDPR Forum (Reggio Emilia)",
+				"subtitle": "Seminar in Public Event",
+				"description": "The GDPR Forum is a PrivacyLab-sponsored event bringing together sector stakeholders to establish best practices for balancing AI advancement with personal data protection regulations and ethical standards. Seminar title: 'ChatGPT è un cazzaro: 5 punti fermi sui Large Language Models'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_gdprforum_speaker_proof.pdf",       
+				"date": "Februrary 2025"
+			},         
+			{
+				"title": "Connessioni Invisibili - 8ª Giornata Nazionale Dipendenze Tecnologiche e Cyberbullismo (Siena)",
+				"subtitle": "Seminar in Public Event",
+				"description": "Connessioni Invisibili is a multidisciplinary event examining the impact of technology on young people's daily lives, featuring expert discussions on health, social development, digital literacy, and the relationship between technology and creativity. Seminar title: 'ChatGPT è un cazzaro: 5 punti fermi sui LLMs'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2024_connessioniinvisibili_proof.jpg",   
+				"date": "November 2024"
+			},         
+			{
+				"title": "Generative AI and the creative industries (Turin)",
+				"subtitle": "Academic Seminar",
+				"description": "The Generative AI and the creative industries roundtable explores the transformative impact of generative AI on creative sectors and examine how educational institutions can prepare students and faculty to navigate the benefits and risks of these emerging technologies.",
+				"url": "https://ssst.campusnet.unito.it/do/avvisi.pl/Show?_id=vkeq",                      
+				"date": "November 2024"
+			}, 
+			{
+				"title": "Poplar Cult Festival (Trento)",
+				"subtitle": "Seminar in Public Event",
+				"description": "The Poplar Cult Festival is a music and cultural event that combines live musical acts with cultural events and community programming to revitalize Trentino's artistic landscape and bridge contemporary creative expression with local heritage. Seminar title: 'ChatGPT è un cazzaro (in senso filosofico)'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2024_poplar_speaker_proof.pdf",          
+				"date": "September 2024"
+			},         
+			{
+				"title": "Istituto Avogadro (Turin)",
+				"subtitle": "Course Seminar",
+				"description": "Seminar title: 'AI, reti neurali e GPT' in the scope of the event 'Intelligenza Artificiale: potenzialità, sfide e rischi' organized by the Istituito Avogadro.", 
+				"url": "https://www.di.unito.it/~mensa/docs/2024_avogadro_speaker_proof.pdf",
+				"date": "April 2024"
+			},         
+			{
+				"title": "Master in Gaming and Esports, IUML (Milan)",
+				"subtitle": "Course Seminar",
+				"description": "Course Programming and Game Development; Seminar title: 'Le basi della programmazione'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2024_iuml_speaker_proof.pdf",            
+				"date": "Februrary 2024"
+			}, 
+			{
+				"title": "Master in AI (Turin)",
+				"subtitle": "Course Seminar",
+				"description": "Course 'Techniques for Natural Language Understanding'; Seminar title: 'Sperimentazioni sul calcolo della distanza concettuale fra concetti'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2018_corso_AI_proof.pdf",
+				"date": "March 2018"
+			},  
+			{
+				"title": "Master in Data Science for Complex Economic Systems (Turin)",
+				"subtitle": "Course Seminar",
+				"description": "Seminar title: 'Semantic Resources for Text Document Processing'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2017_seminar_madas_proof.pdf",           
+				"date": "December 2017"
+			},   
+			{
+				"title": "INRIA (Sophia Antipolis, France)",
+				"subtitle": "Academic Seminar",
+				"description": "Seminar title: 'Building wide coverage lexical resources from encyclopedic and common-sense knowledge'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2017_seminar_wimmics_proof.pdf",          
+				"date": "February 2017"
+			}
+	]
+}

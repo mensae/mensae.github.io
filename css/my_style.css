@@ -1,0 +1,346 @@
+/* My CSS - Enrico Mensa*/
+
+
+/* Some horrible fixes */
+
+#profile_img {
+    width:100%;
+}
+
+@media (max-width: 991px) {
+    .main-nav li a.active {
+        border-left: 1px solid #eaeaea; 
+    }
+    
+    #profile_img {
+        height:233px;
+        object-fit: cover; /* Crops to fill the container */
+        object-position: center; /* Controls which part is visible */
+    }
+}
+
+@media (max-width: 768px) {
+    .main-nav li a.active {
+        border-left: 1px solid #eaeaea; 
+    }
+    
+    #profile_img {
+        height:123px;
+        width:100%;
+        object-fit: cover; /* Crops to fill the container */
+        object-position: center; /* Controls which part is visible */
+    }
+
+}
+
+
+
+/* ---------------- */ 
+
+
+.main-nav {
+    margin-bottom:15px;
+}
+
+.main-nav ul li a {
+    padding: 28px 0 !important;
+}
+
+#img_href {
+    padding: 0 0 !important;
+}
+
+.section {
+    margin-bottom:20px;
+
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: "Roboto Slab","Helvetica","Arial",sans-serif;		
+    font-size: 17px;
+    color: #2a2a2a;
+    font-weight: 400;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    padding-right:10px;
+}
+
+.r-label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+/* generic label on the right */
+.r-label-container > span {
+    font-size: 85%;
+    font-weight: 500;
+    border-radius: .25em;
+}
+
+.label-url > a {
+    padding: 3px 7px;
+}
+
+.label-date {
+    padding: 0px 7px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+     .title-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .r-label-container {
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+}
+
+
+.subtitle {
+    font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
+    color: #2a2a2a;
+    font-size:14px;
+}
+
+
+/* LABELS SPECIFIC COLORS (papers) */
+
+.label-journal {
+    color: white;
+    padding: 0px 9px !important;
+    background-color: #c32b72;
+    border: 1px solid #c32b72;        
+}
+
+.label-conference {
+    color: white;
+    padding: 0px 9px !important;
+    background-color: #196ca3;
+    border: 1px solid #196ca3;       
+}
+.label-correspondence {
+    color: white;
+    padding: 0px 9px !important;
+    background-color: #60666a;
+    border: 1px solid #495156;       
+}
+
+.label-workshop {
+    padding: 0px 9px !important;
+    background-color: #ffc90d;
+    border: 1px solid #ffc90d;        
+}
+
+/* OTHER LABELS SPECIFIC COLORS */
+
+.label-ongoing {
+    background-color: #19d081;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.label > a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.label-url {
+    color: #2a2a2a;
+    border: 1px solid #495156;
+    cursor: pointer;    
+}
+.label-url:hover {
+    background-color: #f5f5f5;
+}
+
+.label-info > a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.label-date {
+    color: #2a2a2a;
+    border: 1px solid #495156;
+}
+
+.label-info {
+    color: white !important;
+    background-color: #5bc0de;
+    border: 1px solid #5bc0de;    
+}
+
+.label-info:hover {
+    background-color: #418ba0;
+    border: 1px solid #418ba0;
+}
+
+.label-dark {
+    background-color: #60666a;
+    border: 1px solid #495156;
+}
+
+
+/* EVENT LABELS */
+
+.label-event-type {
+    margin-left:0;
+    padding: 0px 4px;
+    font-size: 85%;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: .25em;
+    border: 1px solid grey;
+}
+
+.label-event-pe {
+    /* Public Event */
+    background-color: #196ca3;
+    border: 1px solid #196ca3;  
+}
+
+.label-event-spe {
+    /* Seminar in Public Event */
+    background-color: #218ed6;
+    border: 1px solid #218ed6;  
+}
+
+.label-event-cs {
+    /* Course Seminar */
+    background-color: #dc4f91;
+    border: 1px solid #dc4f91;
+}
+
+.label-event-as {
+    /* Academic Seminar */
+    background-color: #c32b72;
+    border: 1px solid #c32b72;
+}
+
+.label-event-re {
+    /* Recorded Event */
+    background-color: #60666a;
+    border: 1px solid #495156;
+}
+
+
+
+.btn-dark:hover {
+    background-color: #60666a;
+    border: 1px solid #495156;
+    color: white;
+}
+
+.btn-dark {
+    background-color: #899196;
+    border:  1px solid #7e868b;
+    color: white;
+}
+
+
+/* --------------------- */
+
+/*
+.elem {
+    margin-bottom:20px;
+    position:relative;
+}
+
+.elem > h2 {
+    font-size:17px; 
+    padding-right:100px;
+}
+
+.elem > span {
+    position:absolute; top:-1px; right:0;
+}
+
+*/
+.left-align {
+    text-align: left;
+}
+
+
+/* --------------------- */
+
+
+.mb-130 {
+    margin-bottom: 130px !important;
+}
+
+.edu-strong {
+font-weight: bold;
+color: #999999;
+}
+
+/* --------------------- */
+
+.default-a a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    bottom: 0px;
+    color: grey;
+}
+
+li > a {
+    text-decoration: none !important;
+}
+a{
+    color: rgb(42,42,42) !important;
+    text-decoration: underline !important;
+}
+
+h2 a:hover{
+    color: #18cc7f;
+}
+.free-ul {
+    margin-top:-30px;
+}
+.free-ul li{
+    font-size: 17px; font-weight: 400; line-height:26px;
+}
+
+.free-ul li a{
+    font-size: 16px;
+}
+
+
+.first-li a {
+    padding: 0px !important;
+}
+
+.first-li a img {
+    max-width: 100%;
+}
+
+.first-li a:before {
+    background:  white !important;
+}
+
+.first-li a.active:after {
+    border-color: transparent !important;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+.main-nav ul li a {
+    font-size: 0px !important;
+}
+
+

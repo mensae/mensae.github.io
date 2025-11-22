@@ -1,0 +1,167 @@
+{
+    "teacher":
+    [ 
+        {
+            "title": "Course \"Introduzione all'Informatica e alle Reti\"",
+            "subtitle": "University of Turin - Department of Cultures, Politics and Society",
+            "description": "The course is an introduction to Computer Science and Networks. Topics: representation of information in computers, computer architectures, operative systems, networks and security.",
+            "url": "https://www.didattica-cps.unito.it/do/corsi.pl/Show?_id=pevb",
+            "date": "2023 - ongoing"
+        }
+    ], 
+    "lecturer":
+    [ 
+        {
+            "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
+            "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
+            "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. Students were tasked with the annotation of hate speech messages in order to compare such annotations with the one made by several LLMs.",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_MEIA_master.pdf",
+            "date": "June 2025"
+        },          
+        {
+            "title": "Lecturer in Corso Universitario di Aggiornamento Professionale (CUAP)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "During the CUAP \"Data Steward\" I lectured 4 hours on the topic \"ChatGPT: usages and risks\". During the lesson I have introduced the basic concepts of neural networks and Large Language Models. Students were tasked with the development of a little benchmark for the evaluation of ChatGPT in the scope of narrative stories generation.",
+            "url": "https://www.di.unito.it/~mensa/docs/2024_cuap_data_steward_proof.pdf",
+            "date": "September 2024"
+        },        
+        {
+            "title": "Lecturer for second level Master",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "During the second level Master in Artificial Intelligence I lectured 16 hours on the topic \"Techniques for Natual Language Processing\". During the lessons the students were requested to implement a simple system for the topic classification of tweets based on word embeddings.",
+            "url": "",
+            "date": "July 2019"
+        },
+        {
+            "title": "Lecturer for first level Master",
+            "subtitle": "University of Turin - Department of Economics and Statistics",
+            "description": "During the Master in Data Science for Business Intelligence I lectured 8 hours on the topics of knowledge representation, semantic networks, conceptual similarity, word sense disambiguation and keyword extraction. The students were tasked with two different exercises concerning conceptual similarity and keyword extraction.",
+            "url": "https://www.di.unito.it/~mensa/docs/2017_madas_proof.pdf",
+            "date": "October 2018"
+        }
+    ], 
+    
+    "PhD Advisor":
+    [ 
+        {
+            "title": "Generative AI for Museum Communication: Innovating On-site Museum Experiences through LLM-Generated Narratives",
+            "subtitle": "PhD Student: Melissa Malacuso",
+            "description": "Sapienza University of Rome, University of Turin",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_certificato_phd_melissa.pdf",
+            "date": "2024 - ongoing"
+        } 
+    ],    
+
+    "thesis advisor":
+    [ 
+        {
+            "title": "Master's Thesis: \"Storie curatoriali interattive: dalla modellazione all’editing. Un caso di studio per il Museo Egizio nel progetto CHANGES\"",
+            "subtitle": "Candidate: Chiara Fulfaro",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2025"
+        },        
+        {
+            "title": "Thesis: \"Storytellers: a web application for collaborative storytelling - a experiment on unnpredictability with AI Support\"",
+            "subtitle": "Candidate: Enkhzaya Batsaijhan",
+            "description": "University of Turin - DAMS - Department of Arts, Music and Performing Arts",
+            "url": "",
+            "date": "2025"
+        },     
+        {
+            "title": "Thesis: \"LLMs for Fallacy Recognition: Evaluation of 2024 Open-Source LLMs on Logical Fallacy Recognition Tasks\"",
+            "subtitle": "Candidate: Elia Mengozzi",
+            "description": "University of Turin - Department of Cultures, Politics and Society",
+            "url": "",
+            "date": "2024"
+        },            
+        {
+            "title": "Thesis: \"Expense On The Go: dall'archiviazione analogica all'archiviazione sostitutiva\"",
+            "subtitle": "Candidate: Giorgia Canova",
+            "description": "University of Turin - Department of Cultures, Politics and Society",
+            "url": "",
+            "date": "2024"
+        },           
+        {
+            "title": "Thesis: \"Social Media e Cambiamento Climatico: Topic Modeling e Sentiment Analysis di Discussioni Online sull'Ambiente \"",
+            "subtitle": "Candidate: Francesco Lanzarotto",
+            "description": "University of Turin - Department of Cultures, Politics and Society",
+            "url": "",
+            "date": "2024"
+        },           
+        {
+            "title": "Master's Thesis: \"Information Extraction on Road Accidents from Clinical Records\"",
+            "subtitle": "Candidate: Daniele Liberatore",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2023"
+        },        
+        {
+            "title": "Master's Thesis: \"Denoising delle cartelle cliniche. Rilevamento e correzione di errori, abbreviazioni e acronimi.\"",
+            "subtitle": "Candidate: Gian Manuel Marino",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2020"
+        },
+        {
+            "title": "Master's Thesis: \"Algorithms and Resources for Analyzing Concrete vs. Figurative Language: the Case of Metaphors.\"",
+            "subtitle": "Candidate: Marco Cavallo",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2018"
+        },
+        {
+            "title": "Thesis: \"Predizione del Successo Accademico Attraverso l’Analisi Semantica di Documenti: il Caso Delle Tesi di Dottorato Filosofiche.\"",
+            "subtitle": "Candidate: Marco Cavallo",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2016"
+        }        
+    ],
+
+    "tutorships":
+    [
+        {
+            "title": "Didactic Collaboration Scholarship (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The didactic scholarship was focused on providing support to the students of the Programming II course. In detail, the 40 hours of the collaboration were spent in both 1v1 sessions with students.",
+            "date": "September 2022 - April 2023"
+        },   
+        {
+            "title": "Didactic Collaboration Scholarship (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The didactic scholarship was focused on providing support to the students of the Programming II course. In detail, the 40 hours of the collaboration were spent in both 1v1 sessions with students.",
+            "date": "September 2021 - September 2022"
+        },        
+        {
+            "title": "Didactic Collaboration Scholarship (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The didactic scholarship was focused on providing support to the students of the Programming I course. In detail, the 40 hours of the collaboration were spent in both 1v1 sessions with students and lessons/exercises with the whole class.",
+            "date": "September 2020 - September 2021"
+        },
+        {
+            "title": "Didactic Collaboration Scholarship (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The didactic scholarship was focused on providing support to the students of the Programming I course. In detail, the 40 hours of the collaboration were spent in both 1v1 sessions with students and lessons/exercises with the whole class.",
+            "date": "September 2018 - September 2019"
+        },
+        {
+            "title": "Didactic Collaboration Scholarship (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The didactic scholarship was focused on providing support to the students of the Programming I course (40 hours). During this scholarship I met with students in 1v1 sessions in order to support their understanding of the course.",
+            "date": "September 2017 - September 2018"
+        },
+        {
+            "title": "Disciplinary Tutoring Scholarship",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "The purpose of this scholarship was to decrease the number of students having less than 40 CFU (Crediti Formativi Universitari) after attending the first year of university. My activity consisted in 40 hours of lessons and tutoring for the students of the Programming I course.",
+            "date": "December 2016 - December 2017"
+        },
+        {
+            "title": "Laboratory Assistant (art. 11)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "I worked side to side with the professors of the course \"Development of Software Applications\". I attended to all of the lessons in laboratory and assisted the students during the development of their projects.",
+            "date": "September 2015"
+        }        
+    ]   
+}

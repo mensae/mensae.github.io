@@ -1,0 +1,186 @@
+{
+
+    "awards, grants and certifications":
+    [ 
+        {
+            "title": "Best Paper Presented By A Young Researcher Award at IEEE MetroXRAINE 2025",
+            "subtitle": "Paper 'Violence Detection from Emergy Room Reports'",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_best_paper_metroxaine.png",
+            "date": "October 2025"
+        },         
+        {
+            "title": "Best Paper Award at Digital Heritage 2025",
+            "subtitle": "Paper 'Large Language Models for Museum Label Optimization'",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_best_paper_dh2025.png",
+            "date": "September 2025"
+        },        
+        {
+            "title": "IRIDI Open Badge",
+            "subtitle": "Certification for 'Quality teaching in-person and online, assessment, and inclusion'",
+            "url": "https://bestr.it/award/show/thl9hkQSThKdi-CwpdiEww",
+            "date": "July 2024"
+        },
+        {
+            "title": "Outstanding Paper Award at ACL 2023",
+            "subtitle": "Paper 'WikiBio: a Semantic Resource for the Intersectional Analysis of Biographical Events'",
+            "url": "https://2023.aclweb.org/program/best_papers/",
+            "date": "July 2023"
+        },
+        {
+            "title": "Best Artificial Intelligence Master's Thesis Award",
+            "subtitle": "in memory of Leonardo Lesmo, University of Turin",
+            "url": "https://www.di.unito.it/~mensa/docs/2017_best_thesis.pdf",
+            "date": "May 2017"
+        },
+        {
+            "title": "Winner of a Student Grant for Partecipation",
+            "subtitle": "in the 16th Conference of the Italian Association for Artificial Intelligence",
+            "url": "https://www.di.unito.it/~mensa/docs/2017_student_grant.pdf",
+            "date": "November 2017"
+        }        
+    ],
+    "research projects":
+    [
+        {
+            "title": "AI4Re-Story (Storie di Restauro Raccontate dall’Intelligenza Artificiale) ",
+            "subtitle": "Role: consultant for the scientific and technical aspects of the project",
+            "description": "The <us{https://unifind.unito.it/resource/project/PISP_CRT_25_01}um{project}ue>  aims to develop a Generative AI toolkit to enhance communication of art restoration processes, designed for professionals and validated through collaboration with the \"La Venaria Reale\" Conservation Center. Funded by Compagnia CRT. Coordinator: Prof. Paola Pisano.",
+            "date": "March 2025 - ongoing"
+        },        
+        {
+            "title": "CHANGES (Cultural Heritage Active Innovation For Next-Gen Sustainable Society) ",
+            "subtitle": "Role: management of the pilot study concerning the Museo Egizio in Torino",
+            "description": "The <us{https://unifind.unito.it/resource/project/CUNG_PNRR_PE_22_01}um{project}ue> \"CHANGES\", Tematica 5 (Cultural Heritage as Laboratory of Innovation and Creativity) - Spoke 4 - Virtual Technologies for Museums and Art Collections. Coordinator: Prof. Rossana Damiano.",
+            "date": "May 2023 - ongoing"
+        },
+        {
+            "title": "L'accessibilità dei testi normativi come dispositivo di inclusione",
+            "subtitle": "Role: development of NLP tools to analyze legal documents, data collection, data analysis",
+            "description": "Participation in the <us{https://www.univda.it/progetti-di-ricerca/laccessibilita-dei-testi-normativi-come-dispositivo-di-inclusione-studio-di-caso-e-strumenti-applicativi-in-valle-daosta-seconda-parte/}um{project}ue> \"L'accessibilità dei testi normativi come dispositivo di inclusione\", in collaboration with Università della Valle d'Aosta, project funded by Compagnia CRT. Scientific coordinator: Prof. Antonio Mastropaolo.",
+            "date": "March 2023 - April 2023"
+        },
+        {
+            "title": "PAUSE (Prevention of Assault Under Scientific Evidence)",
+            "subtitle": "Role: project manager",
+            "description": "The <us{https://unifind.unito.it/resource/project/RADD%5FPE%5FATENEO%5F21%5F01}um{project}ue> is focused on the study and contrast of interpersonal violence, in particular against women. Presented in the 2021 call for Public Engagement, funded by UNITO. Scientific coordinator: Prof. Daniele Paolo Radicioni.",
+            "date": "September 2021 - April 2023"
+        },
+        {
+            "title": "ViDeS (VIolence DEtection System)",
+            "subtitle": "Role: analysis of the research problem; design, implementation and testing of the system",
+            "description": "The <us{https://unifind.unito.it/resource/project/RADD%5FCRT%5F19%5F01}um{project}ue> project is focused on the development of ViDeS, a system for the automatic analysis of emergency room records and specifically the detection of violent cases. In collaboration with Istituto Superiore di Sanità, funded by Fondazione CRT and UNITO. Scientific coordinator: Prof. Daniele Paolo Radicioni.",
+            "date": "February 2019 - April 2023"
+        },
+        {
+            "title": "PRiSMHA (Providing Rich Semantic Metadata for Historical Archives)",
+            "subtitle": "Role: ontology analysis and system design",
+            "description": "The PRiSMHA <us{https://unifind.unito.it/resource/project/S1618%5FL2%5FGOYA%5F01}um{project}ue> aims at building rich semantic representations of the content of historical documents. Founded by: Compagnia di San Paolo and UNITO. Scientific coordinator: Prof. Annamaria Goy. ",
+            "date": "2017-2019"
+        }                
+        
+    ],
+    "international experience":
+    [ 
+        {
+            "title": "Research Internship",
+            "subtitle": "INRIA, Sophia Antipolis (France)",
+            "description": "After being granted a scholarship of three months within the ERASMUS+ program, I was guest of the Wimmics group of INRIA, in Sophia Antipolis. During this period abroad I worked on the <us{https://project.inria.fr/aloof/2015/09/22/the-aloof-project/}um{ALOOF project}ue>, focusing on exploiting semantics in order to perform object and scene recognition tasks.",
+            "date": "May 2018 - July 2018"
+            }
+    ],
+    "Editorial Duties":
+    [
+        {
+            "title": "<us{https://digitalheritage2025.unisi.it/}um{Digital Heritage (DH) World Congress & Expo}ue>",
+            "subtitle": "Programme Committee member",
+            "date": "2025"
+        },          
+        {
+            "title": "<us{https://clic2025.unica.it/}um{CLiC-it 2025}ue> conference",
+            "subtitle": "Programme Committee member",
+            "date": "2025"
+        },        
+        {
+            "title": "<us{https://clic2024.ilc.cnr.it/}um{CLiC-it 2024}ue> conference",
+            "subtitle": "Programme Committee member",
+            "date": "2024"
+        },        
+        {
+            "title": "<us{https://2024-eu.semantics.cc/}um{SEMANTiCS 2024}ue> conference",
+            "subtitle": "Programme Committee member of the Research & Innovation track",
+            "date": "2024"
+        },
+        {
+            "title": "<us{http://bit.ly/4nFyyX0}um{Language and Computation}ue> (section of Frontiers in Artificial Intelligence)",
+            "subtitle": "Review Editor on the Editorial Board",
+            "date": "2023 - ongoing"
+        },
+        {
+            "title": "<us{https://2023-eu.semantics.cc/}um{SEMANTICS- 2023}ue>",
+            "subtitle": "Programme Committee member",            
+            "date": "2023"
+        },        
+        {
+            "title": "Special Issue <us{https://bit.ly/3rlEhpo}um{Information Extraction for Health Documents}ue> in the Frontiers in AI Series",
+            "subtitle": "Topic Editor",
+            "date": "2022"
+        },
+        {
+            "title": "<us{https://bit.ly/3RW2M9c}um{EVALITA 2020 CONcreTEXT}ue> in CLiC-it 2020",
+            "subtitle": "Program Committee Memember",
+            "date": "2020"
+        }
+    ],
+
+    "reviewer":
+    [ 
+        {   "title": "European Conference on Artificial Intelligence (ECAI) 2025",
+            "date": "2025"
+        },        
+        {   "title": "User Modeling, Adaptation and Personalization (UMAP) 2024",
+            "date": "2024"
+        },
+        {   "title": "SEMANTICS EU 2023",
+            "date": "2023"
+        },      
+        {   "title": "Foundations of Digital Games 2023",
+            "date": "2023"
+        },
+        {
+            "title": "Language Resources and Evaluation Conference 2022",
+            "date": "2022"
+        },         
+        {
+            "title": "Behaviour and Information Techonology Journal",
+            "date": "2021"
+        }, 
+        {
+            "title": "Knowledge Based Systems Journal",
+            "date": "2021"
+        },                 
+        {
+            "title": "19th International AIxIA conference",
+            "date": "2020"
+        },        
+        {
+            "title": "Conference on Computational Natural Language Learning (ConLL 2019)",
+            "date": "2019"
+        },
+        {
+            "title": "34th ACM/SIGAPP Symposium On Applied Computing (SAC 2019)",
+            "date": "2019"
+        },  
+        {
+            "title": "29th ACM Conference on Hypertext and Social Media (HT 18)",
+            "date": "2018"
+        },  
+        {
+            "title": "20th International Conference on Enterprise Information Systems (ICEIS 18)",
+            "date": "2017"
+        },       
+        {
+            "title": "16th International AIxIA conference",
+            "date": "2017"
+        }   
+    ]
+}

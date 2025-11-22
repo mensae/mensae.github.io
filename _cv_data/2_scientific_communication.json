@@ -1,0 +1,70 @@
+{
+
+    "Contributions":    
+    [
+        {
+            "title": "Enkk - AI without Hype",
+            "url": " https://www.youtube.com/@enkk/videos",
+            "platform": "Youtube",
+            "subtitle":"Main Youtube Channel",            
+            "description": "My YouTube channel offers clear, practical explanations of AI and LLMs, making complex concepts accessible to everyday people through straightforward, hype-free content.",
+            "views": "2.000.000+ total views"
+        }, 
+        {
+            "title": "How do you Evaluate a Large Language Model",
+            "url": " https://techdale.it/come-si-valuta-un-large-language-model/",
+            "platform": "blog",
+            "subtitle":"Blog post on Techdale.it",            
+            "description": "This blog post introduces the notions of benchmarks and explains the challenges in evaluating Large Language Models.",
+            "views": ""
+        },        
+        {
+            "title": "Artificial Intelligence Has Been Everywhere for Years",
+            "url": "https://techdale.it/sono-anni-che-lintelligenza-artificiale-e-ovunque/",
+            "platform": "blog",
+            "subtitle":"Blog post on Techdale.it",            
+            "description": "This blog post explores the distinction between Artificial Intelligence and Large Language Models, addressing some of the concerns surrounding the growing hype around LLMs.",
+            "views": ""
+        },
+        {
+            "title": "How Does it Work?",
+            "url": "https://www.youtube.com/playlist?list=PLMP9hIwoX2DuQz3kaSApk4h4_p4WVqfHI",
+            "platform": "youtube",
+            "subtitle":" An insight on Neural Networks",            
+            "description": "This series focuses on Neural Networks, providing an insight on the development of various NN models, from the perceptron to the transformers.",
+            "views": "150K+ views"
+        },        
+        {
+            "title": "Programming Python",
+            "url":"https://youtube.com/playlist?list=PLuIlum8huKaWpYST_Ro2Qqac4Tdf3IkNN",
+            "platform": "youtube",
+            "subtitle":" Developing a Bot for Twitch chat",            
+            "description": "This Italian Python course (~ 13 hours) provides a rapid introduction to the Python programming language, aimed at the development of a Bot able to read, write and reply to users in a Twitch chat.",
+            "views": "200K+ views"            
+        },
+        {
+            "title": "LaTeX introduction",
+            "url": "https://www.youtube.com/watch?v=e8vxRjpf95s",
+            "platform": "youtube",
+            "subtitle": "How to write documents like a pro-player",
+            "description": "In this video I provide an introduction to LaTeX: how to write properly formatted documents.",
+            "views": "190K+ views"
+        },
+        {
+            "title": "LaTeX introduction @ Dipartimento di Informatica",
+            "url": "https://www.youtube.com/watch?v=QY2zdhSY48M",
+            "platform": "youtube",
+            "subtitle": "How to write documents like a pro-player",
+            "description": "In this live lecture I provide an introduction to LaTeX: how to write properly formatted documents.",
+            "views": "160K+ views"
+        },    
+        {
+            "title": "Dealing with University",
+            "url": "https://www.youtube.com/watch?v=4U8QqRxKX9U",
+            "platform": "youtube",
+            "subtitle": "Some tips for freshmans",
+            "description": "University can be challenging. In this video I talk about my experience at Uni, providing some tips on how to manage the stress and the workload.",
+            "views": "190K+ views"            
+        }
+    ]
+}

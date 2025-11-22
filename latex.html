@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="cv_gen/bibtexParse.js"></script>
+	<script src="cv_gen/cv_gen.js"></script>
+	<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+	
+
+	<style>
+		.bigcontainer {
+			padding:10px;
+			margin-bottom:20px;
+			border-left: 2px solid grey;
+		}
+
+	.button {
+	  background-color: #4CAF50; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin-bottom:20px;
+	  font-family: menlo;
+	}
+	
+	.button {
+	  transition-duration: 0.4s;
+	}
+	
+	.button:hover {
+	  background-color: #0c9711; /* Green */
+	  color: white;
+	}		
+	</style>
+</head>
+<body>
+
+
+
+<a class="copy-text button" data-clipboard-target="#one" href="#">Copy</a>
+
+<hr>
+
+<div id="one" class="bigcontainer">
+<pre><code>
+%----------------------------------------------------------------------------------------
+%	Education and Academy Positions
+%----------------------------------------------------------------------------------------	
+
+\begin{mainSection}{Education and Academy Positions}{15}
+
+\begin{headSection}{Education}{10}
+
+<span id="education-container"></span>
+\end{headSection}
+
+<span id="scholarships-container"></span>
+
+\end{mainSection}
+</code></pre>	
+
+
+<pre><code>
+%----------------------------------------------------------------------------------------
+%	RESEARCH
+%----------------------------------------------------------------------------------------	
+
+\begin{mainSection}{Research}{15}
+
+
+\begin{headSection}{Publications}{10}
+
+<span id="publications-container"></span>
+\end{headSection}
+
+<span id="research-container"></span>
+
+
+\end{mainSection}
+</code></pre>	
+
+<pre><code>
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------	
+
+\begin{mainSection}{Teaching}{15}
+<span id="teaching-container"></span>
+\end{mainSection}
+
+</code></pre>
+
+<pre><code>
+
+%----------------------------------------------------------------------------------------
+%	TALKS
+%----------------------------------------------------------------------------------------	
+
+\begin{mainSection}{Talks and Speeches}{15}
+<span id="talks-container"></span>
+\end{mainSection}
+
+</code></pre>
+
+
+<pre><code>
+
+%----------------------------------------------------------------------------------------
+%	SCICOMM
+%----------------------------------------------------------------------------------------	
+
+\begin{mainSection}{Scientific Communication}{15}
+<span id="scientific_communication-container"></span>
+\end{mainSection}
+
+</code></pre>
+
+</div>
+
+
+
+
+
+
+
+
+
+					
+<script>
+	$(document).ready(function(){
+
+		fillLatexEducation($("#education-container"));
+		fillLatex($("#scholarships-container"));
+
+		fillLatexPublications($("#publications-container"));
+		fillLatex($("#research-container"));
+	
+		fillLatex($("#teaching-container"));
+		fillLatex($("#talks-container"));		
+		fillLatexScientificCommunication($("#scientific_communication-container"));		
+
+		
+ 	}); 
+
+$(function(){
+  new Clipboard('.copy-text');
+});
+
+</script>
+</body>
+</html>
+

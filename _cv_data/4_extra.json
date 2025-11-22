@@ -1,0 +1,18 @@
+{
+
+    "programming & technical skills":
+    [ 
+        {
+            "title": "Symfony developer",
+            "subtitle": "Bitonda S.A.S., Turin",
+            "description": "I developed the backend of the ScontriNO software, a system that allows the automatic collection of medical receipts. Thanks to this record of receipts, the user is able to use them for fiscal deduction. I developed inside the Symfony framework, and my focus was on the development of several plugins for the automatic generation of PDF files.",
+            "date": "April 2013 - July 2013"
+        },
+        {
+            "title": "Technical department's stagist",
+            "subtitle": "ASL TO3, Pinerolo (TO)",
+            "description": "Management of the ASL staff's credentials and in-place technical interventions. I also provided assistance to the HelpDesk.",
+            "date": "August 2009"
+        }
+    ]
+}
