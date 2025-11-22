@@ -347,7 +347,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	.bg-white{background:#ffffff;}
 	.pd-r0{padding-right:0 !important;}
 	.pd-l0{padding-left:0 !important;}
-	.emph-1{color:#2a2a2a;}
+	.emph-1{color:#2a2a2a; font-size:18px;}
 	.emph-2{color:#18cc7f;}
 	.emph-3{font-style:italic;}
 	.emph-4{color:#999999;}
@@ -789,7 +789,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	
 	
 	.listing .listing-event .data.right {
-		  margin-left: 35%;
+		margin-left: 35%;
 		padding-left: 38px;
 		position: relative;
 		text-align: left;
@@ -798,23 +798,36 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	
 	
 	.listing .listing-event .data li{
-		font-size: 15px;
+		font-size: 17px;
 		font-weight: 400;
 		line-height:26px;
 	}
 	
-	
+	/*
 	.listing  a {
 		font-size: 14px;
 		font-weight: 700;
 		position: absolute;
 		bottom: -25px;
+	}*/
+
+	.data {
+		font-family: "Roboto Slab", "Helvetica", "Arial", sans-serif;
+	}
+
+	.data > li > a {
+		color: #999999 !important;
 	}
 	
 	
 	.listing  a:hover {
-		color:#18cc7f;
+		color:#18cc7f !important;
 	}
+
+	
+	.data li  a:hover {
+		color:#18cc7f !important;
+	}	
 	
 	.listing  a.btn-1 {
 		left:3px;

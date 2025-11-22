@@ -10,10 +10,9 @@ function getDataAndFill(where, containers) {
 		$.getJSON(BPATH+'2_research.json'),
 		$.getJSON(BPATH+'3_teaching.json'),
 		$.getJSON(BPATH+'4_talks.json'),
-		$.getJSON(BPATH+'5_scicom.json'),
-		$.getJSON(BPATH+'6_extra.json')
+		$.getJSON(BPATH+'5_scicom.json')
 
-	).done(function (publications, experiences, research, teaching, talks, scicomm, extra) {
+	).done(function (publications, experiences, research, teaching, talks, scicomm) {
 		data = {}; 
 
 		data["publications"] =  bibtexParse.toJSON(publications[0])
@@ -22,7 +21,6 @@ function getDataAndFill(where, containers) {
 		data["teaching"] = teaching[0];
 		data["talks"] = talks[0];
 		data["scicom"] = scicomm[0];
-		data["extra"] = extra[0]; 
 
 		// preprocess bib entries
 		preprocessBib(data["publications"])

@@ -8,12 +8,6 @@
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Expires" content="0">		
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="cv_gen/bibtexParse.js"></script>
-	<script src="cv_gen/cv_gen.js"></script>
-	<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
-
-	
 
 	<style>
 		.bigcontainer {
@@ -22,27 +16,27 @@
 			border-left: 2px solid grey;
 		}
 
-	.button {
-	  background-color: #4CAF50; /* Green */
-	  border: none;
-	  color: white;
-	  padding: 15px 32px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 16px;
-	  margin-bottom:20px;
-	  font-family: menlo;
-	}
-	
-	.button {
-	  transition-duration: 0.4s;
-	}
-	
-	.button:hover {
-	  background-color: #0c9711; /* Green */
-	  color: white;
-	}		
+		.button {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin-bottom:20px;
+			font-family: menlo;
+		}
+
+		.button {
+			transition-duration: 0.4s;
+		}
+
+		.button:hover {
+			background-color: #0c9711; /* Green */
+			color: white;
+		}		
 	</style>
 </head>
 <body>
@@ -61,12 +55,7 @@
 
 \begin{mainSection}{Education and Academy Positions}{15}
 
-\begin{headSection}{Education}{10}
-
-<span id="education-container"></span>
-\end{headSection}
-
-<span id="scholarships-container"></span>
+<span id="experiences-container"></span>
 
 \end{mainSection}
 </code></pre>	
@@ -123,7 +112,7 @@
 %----------------------------------------------------------------------------------------	
 
 \begin{mainSection}{Scientific Communication}{15}
-<span id="scientific_communication-container"></span>
+<span id="scicom-container"></span>
 \end{mainSection}
 
 </code></pre>
@@ -134,25 +123,24 @@
 
 
 
-
-
-
+<script src="js/external/jquery.1.12.4.min.js"></script>
+<script src="js/bibtexParse.js"></script>
+<script src="js/general.js"></script>
+<script src="js/fill_latex.js"></script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
 
 					
 <script>
 	$(document).ready(function(){
 
-		fillLatexEducation($("#education-container"));
-		fillLatex($("#scholarships-container"));
-
-		fillLatexPublications($("#publications-container"));
-		fillLatex($("#research-container"));
-	
-		fillLatex($("#teaching-container"));
-		fillLatex($("#talks-container"));		
-		fillLatexScientificCommunication($("#scientific_communication-container"));		
-
-		
+		getDataAndFill('LATEX', [
+			$("#publications-container"), 
+			$("#research-container"), 
+			$("#teaching-container"), 
+			$("#experiences-container"),
+			$("#talks-container"),
+			$("#scicom-container")
+		])
  	}); 
 
 $(function(){

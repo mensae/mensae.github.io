@@ -17,10 +17,10 @@ function fillHTML(containers, data) {
 		//console.log(`CATEGORY: ${cat_name}`)
 
 		if (cat_name == "publications") {
-			fillHTMLPublications(container, data["publications"]);
+			fillPublications(container, data["publications"]);
 		} else {
 			if (data.hasOwnProperty(cat_name)) {
-				fillGeneral(container, cat_name, data[cat_name]);
+				fillAnyCategory(container, data[cat_name]);
 			} else {
 				console.error("No data for container:", cat_name);
 			}
@@ -31,9 +31,9 @@ function fillHTML(containers, data) {
 
 
 /**
-Fills the HTML in general
+Fills a category
 */
-function fillGeneral(container, cat_name, cat_data) {
+function fillAnyCategory(container, cat_data) {
 	var content = "";
 
 	Object.entries(cat_data).forEach(([subcat_name, subcat_data]) => {
@@ -211,7 +211,7 @@ function buildSpeakerElem(elem, url, date) {
 /**
 * Fills the HTML container with the publications
 */
-function fillHTMLPublications(container, json) {
+function fillPublications(container, json) {
 		json_by_year = {}
 		years = []
 
