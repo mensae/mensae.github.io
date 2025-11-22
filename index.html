@@ -13,7 +13,7 @@
 	<meta http-equiv="Expires" content="0">	
 
 	<!-- Css -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="css/my_style.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,300,600%7CRoboto+Slab:400,300,700' rel='stylesheet' type='text/css'>	
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	
+
 	<!-- Preloader -->
 	<div class="loader">
 		<!-- Preloader inner -->
@@ -68,11 +68,10 @@
 									<li><a  href="#publications"><i class="fas fa-book-open"></i>Publications<span></span></a></li>									
 									<li><a  href="#research"><i class="fas fa-book"></i>Research<span></span></a></li>						
 									<li><a  href="#teaching"><i class="fas fa-school"></i>Teaching<span></span></a></li>
+									<li><a  href="#experiences"><i class="fas fa-graduation-cap"></i>Experiences<span></span></a></li>									
 									<li><a  href="#talks"><i class="fas fa-microphone"></i>Talks<span></span></a></li>
-									<li><a  href="#scholarships"><i class="fas fa-pencil-alt"></i>Scholarships<span></span></a></li>								
 									<li><a  href="#scientific_communication"><i class="fab fa-youtube"></i>SciComm<span></span></a></li>	
-									<li><a  href="#education"><i class="fas fa-graduation-cap"></i>Education<span></span></a></li>									
-									<li><a  href="#extra"><i class="icon-pin"></i>Extra<span></span></a></li>						
+									<li><a  href="#extra"><i class="fas fa-paperclip"></i>Extra<span></span></a></li>						
 								</ul>
 
 							</nav>
@@ -289,19 +288,13 @@
 
 
 <!---
-        __________  __  ___________  ______________  _   __
-       / ____/ __ \/ / / / ____/   |/_  __/  _/ __ \/ | / /
-      / __/ / / / / / / / /   / /| | / /  / // / / /  |/ /
-     / /___/ /_/ / /_/ / /___/ ___ |/ / _/ // /_/ / /|  /
-    /_____/_____/\____/\____/_/  |_/_/ /___/\____/_/ |_/
-
+    EXPERIENCES
 -->				
 
 
-<!-- Education Tab-->
+<!-- Experiences Tab-->
 
-<section id="education" class="bg-white t-center">
-
+<section id="experiences" class="bg-white t-center">
 
 	<!--Content-->	
 	<div class="content">
@@ -315,7 +308,7 @@
 				<div class="col-md-12">
 
 					<div class="main-title profile">
-						<h1 class="mb-20">Education</h1>
+						<h1 class="mb-20">Experiences</h1>
 					</div>
 				</div>
 			</div>
@@ -324,7 +317,7 @@
 		</div>
 		<!--End block content-->								
 
-		<div id="education-container"> </div>
+		<div id="experiences-container"> </div>
 
 
 
@@ -337,7 +330,7 @@
 
 </section>
 
-<!--End education tab-->
+<!--End experiences tab-->
 					
 
 <!---
@@ -391,58 +384,6 @@
 
 <!--End publication tab-->
 
-
-<!---
-
-   _____ ________  ______  __    ___    ____  _____ __  __________  _____
-  / ___// ____/ / / / __ \/ /   /   |  / __ \/ ___// / / /  _/ __ \/ ___/
-  \__ \/ /   / /_/ / / / / /   / /| | / /_/ /\__ \/ /_/ // // /_/ /\__ \
- ___/ / /___/ __  / /_/ / /___/ ___ |/ _, _/___/ / __  // // ____/___/ /
-/____/\____/_/ /_/\____/_____/_/  |_/_/ |_|/____/_/ /_/___/_/    /____/
-
-
-
--->				
-
-
-<!-- scholarships Tab-->
-
-<section id="scholarships" class="bg-white t-center">
-
-
-	<!--Content-->	
-	<div class="content">
-
-		<!--Block content-->	
-		<div class="block-content mb-100">
-
-			<!--Row-->
-			<div class="row">
-
-				<div class="col-md-12">
-
-					<div class="main-title profile">
-						<h1 class="mb-20">Scolarships</h1>
-					</div>
-				</div>
-			</div>
-			<!--End row-->
-
-		</div>
-		<!--End block content-->	
-
-		<div id="scholarships-container">
-
-		</div>	
-
-
-	</div>
-	<!--End content-->
-
-
-</section>
-
-<!--End scholarships tab-->		
 
 <!--
   _______________   ________  _______   ________
@@ -623,7 +564,7 @@
 		</div>
 		<!--End block content-->	
 
-		<div id="scientific_communication-container">
+		<div id="scicom-container">
 
 		</div>							
 
@@ -756,51 +697,51 @@
 <!--End wrapper-->
 
 <!--Javascript-->	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+<script src="js/external/jquery.1.12.4.min.js"></script>
+<script src="js/external/jquery.easytabs.min.js"></script>
 <script src="js/bibtexParse.js"></script>
-<script src="js/cv_gen.js"></script>
+<script src="js/general.js"></script>
+<script src="js/fill_html.js"></script>
 
 
 <script>
 
-	(function($) {
-		"use strict";
-		
+(function($) {
+	"use strict";
+	
 	// barra di caricamento
 	$(".loader-inner").fadeOut(); 
 	$(".loader").delay(200).fadeOut("slow"); 
 
 
-// Easytab setup	
+	// Easytab setup	
+	$('#wrapper').easytabs({
+		animate			: true,
+		updateHash		: false,
+		transitionIn	:'fadeIn',
+		transitionOut	:'fadeOut',
+		animationSpeed	:100,
+		tabActiveClass	:'active',
+		tabs            :' #main-nav.tabbed > ul > li ',
+		transitionInEasing: 'linear',
+		transitionOutEasing: 'linear'	
 
-$('#wrapper').easytabs({
-	animate			: true,
-	updateHash		: false,
-	transitionIn	:'fadeIn',
-	transitionOut	:'fadeOut',
-	animationSpeed	:100,
-	tabActiveClass	:'active',
-	tabs            :' #main-nav.tabbed > ul > li ',
-	transitionInEasing: 'linear',
-	transitionOutEasing: 'linear'	
-
-});
-
-
+	});
 
 })(jQuery);
 
 
 $(document).ready(function(){
-	fillHTML($("#research-container"));
-	fillHTML($("#teaching-container"));
-	fillHTML($("#scholarships-container"));
-	fillHTML($("#talks-container"));	
-	fillHTML($("#extra-container"));
-	fillHTMLPublications($("#publications-container"));
-	fillHTMLEducation($("#education-container"));
-	fillHTMLScientificCommunication($("#scientific_communication-container"));
+
+	getDataAndFill('HTML', [
+		$("#publications-container"), 
+		$("#research-container"), 
+		$("#teaching-container"), 
+		$("#experiences-container"),
+		$("#talks-container"),
+		$("#scicom-container"),
+		$("#extra-container")
+	])
 	
 	//parse get parameter for 
 	const urlParams = new URLSearchParams(window.location.search);

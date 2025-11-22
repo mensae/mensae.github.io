@@ -356,3 +356,98 @@
 })(typeof exports === 'undefined' ? this['bibtexParse'] = {} : exports);
 
 /* end bibtexParse */
+
+/* ******** FROM HERE IS MY STUFF *******/
+
+/**
+* Preprocesses the bib json by fixing authors, title, booktitle and journal. Extra {} chars, double spaces and new lines are removed everywhere,
+* while authors are parsed and replaced with a common form.
+*
+* Two types of authors are treated: 
+* -  Colla, Davide and Mensa, Enrico and Radicioni, Daniele P
+* -  Enrico Mensa and Davide Colla and Marco Dalmasso and Marco Giustini and Carlo Mamo and Alessio Pitidis and Daniele Paolo Radicioni
+* New lines and tabs are treated. 
+*/ 
+function preprocessBib(json)  {
+	for(i in json) {
+		json[i].entryTags = keysToLowerCase(json[i].entryTags);
+		var entry = json[i].entryTags;
+		
+		//--- authors ---
+		entry.author = entry.author.replace(/\s\s+/g, ' ')
+
+		var authors = entry.author.split(" and ");
+
+
+		for (var j = 0; j < authors.length; j++) {
+			var a = authors[j].trim();
+			var name = "";
+			var surname = "";
+
+			if (a.includes(",")) { //ie Radicioni, Daniele Paolo
+				var split_a = a.split(", ");
+				surname = split_a[0];
+				var split_names = split_a[1].split(" ");
+				for(var k = 0; k < split_names.length; k++) {
+					split_names[k] = split_names[k].charAt(0)+".";
+				}
+				name = split_names.join(" ");
+
+			} else { // Daniele Paolo Radicioni
+				var split_a = a.split(" ");
+				surname = split_a.pop(); //pop surname
+				split_names = split_a //only names
+				for(var k = 0; k < split_names.length; k++) { //all the names
+					split_names[k] = split_names[k].charAt(0)+".";
+				}
+				name = split_names.join(" ");
+			}
+			authors[j] = name + " " + surname;
+		} 
+
+		entry.author = authors.join(", ");
+
+		//---- title ----
+		entry.title = entry.title.replace(/{|}/g, "");
+		entry.title = entry.title.replace(/\s\s+/g, ' ');
+
+
+		// other entries 
+		if(entry.booktitle !== undefined)  {
+			entry.booktitle = entry.booktitle.replace(/{|}/g, "");        
+			entry.booktitle = entry.booktitle.replace(/\s\s+/g, ' ')
+		}
+		if(entry.journal !== undefined)  {
+			entry.journal = entry.journal.replace(/{|}/g, "");        
+			entry.journal = entry.journal.replace(/\s\s+/g, ' ')
+		}        
+	}
+
+}
+
+
+/**
+* Turns the keys of an object all in lower case 
+**/
+function keysToLowerCase(obj) {
+	if (!typeof(obj) === "object" || typeof(obj) === "string" || typeof(obj) === "number" || typeof(obj) === "boolean") {
+		return obj;
+	}
+	if(obj instanceof Array) {
+		for (var i in obj) {
+			obj[i] = keysToLowerCase(obj[i]);
+		}
+		return obj;
+	}
+	var keys = Object.keys(obj);
+	var n = keys.length;
+	var lowKey;
+	while (n--) {
+		var key = keys[n];
+		if (key === (lowKey = key.toLowerCase()))
+			continue;
+		obj[lowKey] = keysToLowerCase(obj[key]);
+		delete obj[key];
+	}
+	return (obj);
+}

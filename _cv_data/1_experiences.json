@@ -1,24 +1,55 @@
 {
-    "scholarships":
-    [ 
+    "education": [
+        {
+            "title": "Doctor's Degree in Computer Science with Honour",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "",
+            "specialization": "",
+            "thesis": "Using Senses Makes Sense: building lexical resources for sense informed NLP applications",
+            "themes": "Lexical Semantics, Semantic Resources, Knowledge Representation, Natural Language Processing",
+            "date": "October 2016 - July 2020",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_PhD_Thesis.pdf"
+        },
+        {
+            "title": "Master's Degree in Computer Science",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "110/110 summa cum laude and special mention for the complessive curricula and thesis value",
+            "specialization": "Systems for the Knowledge Treatment",
+            "thesis": "Design and implementation of a methodology for the alignment of semantic resources and the automatic population of conceptual spaces",
+            "themes": "Conceptual Spaces, Cognitive Systems, Semantic Resources, Natural Language Processing",
+            "date": "September 2013 - April 2016",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Master_Thesis.pdf"
+        },
+        {
+            "title": "Bachelor's Degree in Computer Science",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "110/110 summa cum laude",
+            "specialization": "Network & Systems",
+            "thesis": "Introducing Java 8",
+            "themes": "Traits, Mixins, Java 8, Default Method",
+            "date": "September 2010 - October 2013",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Doctor_Thesis.pdf"
+        }
+    ],
+    "scholarships": [
         {
             "title": "Research Fellowship - Assegno di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "Models and Architectures for linguistic and textual elaboration.",
             "date": "September 2021 - April 2022"
-        },           
+        },
         {
             "title": "Research Scholarship",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The scholarship titled \"Architectures and approaches for elaborating Emergency Room Reports\" was held within the project \"Analisi automatica delle cartelle di Pronto Soccorso per la prevenzione del Femminicidio\". My activity was focused on the development of a system for the analysis and categorization of medical records in order to automatically detect violent cases and extracing relevant information from the violent records. ",
             "date": "March 2021 - August 2021"
-        },        
+        },
         {
             "title": "Research Fellowship - Assegno di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "Resources and systems for lexical semantics.",
             "date": "February 2020 - February 2021"
-        },        
+        },
         {
             "title": "Research Scholarship",
             "subtitle": "University of Turin - Department of Computer Science",
@@ -30,13 +61,12 @@
             "subtitle": "Istituto Intesa San Paolo and University of Turin",
             "description": "The collaboration titled \"Tecnologie e metodologia di valutazione di sistemi per L’Information Retrieval su basi di conoscenza aziendali\" was a joint project between the Istituto Intesa San Paolo and the University of Turin; the project was aimed at the evaluation of an array of techniques for the improvement of the Help Desk information retrieval system of ISP. We designed a test-set and lead the evaluation of the experimentation results, as provided by the companies involved in the challenge.",
             "date": "September 2017 - December 2017"
-        }, 
+        },
         {
             "title": "Research Scholarship",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The scholarship titled \"Design and implementation of the architecture of a semantic server\" in the frame of \"Content-Centered Computation and the Case of Intentional Actions\". My activity was focused on the design and development of the architecture of a semantic server.",
             "date": "June 2016 - August 2016"
-        } 
+        }
     ]
-
 }
