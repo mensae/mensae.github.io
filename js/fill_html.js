@@ -65,7 +65,8 @@ function fillAnyCategory(container, cat_data) {
 
 				//subcategory specific stuff
 				switch (subcat_name.toLowerCase()) {
-					case "invited speaker": 
+					case "public events": 
+					case "academic events": 
 						content += buildSpeakerElem(elem, url, date);
 						break;
 					case "education":
