@@ -4,12 +4,12 @@
         {
             "title": "Course \"Introduzione all'Informatica e alle Reti\"",
             "subtitle": "University of Turin - Department of Cultures, Politics and Society",
-            "description": "The course is an introduction to Computer Science and Networks. Topics: representation of information in computers, computer architectures, operative systems, networks and security.",
+            "description": "The course (42 hours - 6 CFU) is an introduction to Computer Science and Networks. Topics: representation of information in computers, computer architectures, operative systems, networks and security.",
             "url": "https://www.didattica-cps.unito.it/do/corsi.pl/Show?_id=pevb",
             "date": "2023 - ongoing"
         }
     ], 
-    "lecturer":
+    "master lecturer":
     [ 
         {
             "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
@@ -26,14 +26,7 @@
             "date": "September 2024"
         },        
         {
-            "title": "Lecturer for second level Master",
-            "subtitle": "University of Turin - Department of Computer Science",
-            "description": "During the second level Master in Artificial Intelligence I lectured 16 hours on the topic \"Techniques for Natual Language Processing\". During the lessons the students were requested to implement a simple system for the topic classification of tweets based on word embeddings.",
-            "url": "",
-            "date": "July 2019"
-        },
-        {
-            "title": "Lecturer for first level Master",
+            "title": "Lecturer for first level Master (MADAS)",
             "subtitle": "University of Turin - Department of Economics and Statistics",
             "description": "During the Master in Data Science for Business Intelligence I lectured 8 hours on the topics of knowledge representation, semantic networks, conceptual similarity, word sense disambiguation and keyword extraction. The students were tasked with two different exercises concerning conceptual similarity and keyword extraction.",
             "url": "https://www.di.unito.it/~mensa/docs/2017_madas_proof.pdf",
@@ -140,6 +133,12 @@
             "date": "September 2020 - September 2021"
         },
         {
+            "title": "Lecturer for second level Master (art. 76)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "During the second level Master in Artificial Intelligence I lectured 16 hours on the topic \"Techniques for Natual Language Processing\". During the lessons the students were requested to implement a simple system for the topic classification of tweets based on word embeddings.",
+            "date": "July 2019"
+        },        
+        {
             "title": "Didactic Collaboration Scholarship (art. 76)",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The didactic scholarship was focused on providing support to the students of the Programming I course. In detail, the 40 hours of the collaboration were spent in both 1v1 sessions with students and lessons/exercises with the whole class.",
@@ -152,7 +151,7 @@
             "date": "September 2017 - September 2018"
         },
         {
-            "title": "Disciplinary Tutoring Scholarship",
+            "title": "Disciplinary Tutoring Scholarship (TUDI)",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The purpose of this scholarship was to decrease the number of students having less than 40 CFU (Crediti Formativi Universitari) after attending the first year of university. My activity consisted in 40 hours of lessons and tutoring for the students of the Programming I course.",
             "date": "December 2016 - December 2017"

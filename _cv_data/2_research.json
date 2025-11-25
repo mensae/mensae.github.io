@@ -56,12 +56,12 @@
         {
             "title": "L'accessibilità dei testi normativi come dispositivo di inclusione",
             "subtitle": "Role: development of NLP tools to analyze legal documents, data collection, data analysis",
-            "description": "Participation in the <us{https://www.univda.it/progetti-di-ricerca/laccessibilita-dei-testi-normativi-come-dispositivo-di-inclusione-studio-di-caso-e-strumenti-applicativi-in-valle-daosta-seconda-parte/}um{project}ue> \"L'accessibilità dei testi normativi come dispositivo di inclusione\", in collaboration with Università della Valle d'Aosta, project funded by Compagnia CRT. Scientific coordinator: Prof. Antonio Mastropaolo.",
+            "description": "The <us{https://www.univda.it/progetti-di-ricerca/laccessibilita-dei-testi-normativi-come-dispositivo-di-inclusione-studio-di-caso-e-strumenti-applicativi-in-valle-daosta-seconda-parte/}um{project}ue> seeks to foster the dissemination of awareness and best practices in the drafting of legislative and regulatory acts. The theoretical framework is underpinned by the principle of the understandability of normative texts. In collaboration with Università della Valle d'Aosta, project funded by Compagnia CRT. Scientific coordinator: Prof. Antonio Mastropaolo.",
             "date": "March 2023 - April 2023"
         },
         {
             "title": "PAUSE (Prevention of Assault Under Scientific Evidence)",
-            "subtitle": "Role: project manager",
+            "subtitle": "Role: project manager and designer of the NLP system",
             "description": "The <us{https://unifind.unito.it/resource/project/RADD%5FPE%5FATENEO%5F21%5F01}um{project}ue> is focused on the study and contrast of interpersonal violence, in particular against women. Presented in the 2021 call for Public Engagement, funded by UNITO. Scientific coordinator: Prof. Daniele Paolo Radicioni.",
             "date": "September 2021 - April 2023"
         },
@@ -72,10 +72,16 @@
             "date": "February 2019 - April 2023"
         },
         {
+            "title": "Tecnologie e metodologia di valutazione di sistemi per l’Information Retrieval su basi di conoscenza aziendali",
+            "subtitle": "Role: design of the dataset and evaluation of the system",
+            "description": "The <us{https://unifind.unito.it/resource/project/RADD%5FRIC%5FN%5FCOMP%5F17%5F01}um{project}ue> is a joint work between the Istituto Intesa San Paolo and the University of Turin; it is aimed at the evaluation of an array of techniques for the improvement of the Help Desk information retrieval system of ISP. We designed a test-set and lead the evaluation of the experimentation results, as provided by the companies involved in the challenge.",
+            "date": "September 2017 - December 2017"
+        },        
+        {
             "title": "PRiSMHA (Providing Rich Semantic Metadata for Historical Archives)",
             "subtitle": "Role: ontology analysis and system design",
-            "description": "The PRiSMHA <us{https://unifind.unito.it/resource/project/S1618%5FL2%5FGOYA%5F01}um{project}ue> aims at building rich semantic representations of the content of historical documents. Founded by: Compagnia di San Paolo and UNITO. Scientific coordinator: Prof. Annamaria Goy. ",
-            "date": "2017-2019"
+            "description": "The <us{https://unifind.unito.it/resource/project/S1618%5FL2%5FGOYA%5F01}um{project}ue> aims at building rich semantic representations of the content of historical documents. Founded by: Compagnia di San Paolo and UNITO. Scientific coordinator: Prof. Annamaria Goy. ",
+            "date": "May 2017 - December 2019"
         }                
         
     ],

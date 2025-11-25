@@ -31,7 +31,13 @@
             "url": "https://www.di.unito.it/~mensa/docs/Mensa_Doctor_Thesis.pdf"
         }
     ],
-    "scholarships": [
+    "Research Fellowship & Scholarships": [
+        {
+            "title": "Fixed Term Research Fellow - Ricercatore a Tempo Determinato (RTDA)",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "RTDA funded on the PNNR project 'CHANGES' (Cultural Heritage Active Innovation For Next-Gen Sustainable Society)",
+            "date": "May 2023 - ongoing"
+        },        
         {
             "title": "Research Fellowship - Assegno di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
@@ -39,7 +45,7 @@
             "date": "September 2021 - April 2022"
         },
         {
-            "title": "Research Scholarship",
+            "title": "Research Scholarship - Borsa di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The scholarship titled \"Architectures and approaches for elaborating Emergency Room Reports\" was held within the project \"Analisi automatica delle cartelle di Pronto Soccorso per la prevenzione del Femminicidio\". My activity was focused on the development of a system for the analysis and categorization of medical records in order to automatically detect violent cases and extracing relevant information from the violent records. ",
             "date": "March 2021 - August 2021"
@@ -51,19 +57,13 @@
             "date": "February 2020 - February 2021"
         },
         {
-            "title": "Research Scholarship",
+            "title": "Research Scholarship - Borsa di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The scholarship titled \"Lexical Semantis Applications in Intelligent Health Systems\" was held within the project \"Resources for the semantic analysis of natural language\". My activity was focused on the development of a system for the analysis and categorization of medical records in order to automatically detect violent cases.",
             "date": "November 2019 - January 2020"
         },
         {
-            "title": "Research Collaborator",
-            "subtitle": "Istituto Intesa San Paolo and University of Turin",
-            "description": "The collaboration titled \"Tecnologie e metodologia di valutazione di sistemi per L’Information Retrieval su basi di conoscenza aziendali\" was a joint project between the Istituto Intesa San Paolo and the University of Turin; the project was aimed at the evaluation of an array of techniques for the improvement of the Help Desk information retrieval system of ISP. We designed a test-set and lead the evaluation of the experimentation results, as provided by the companies involved in the challenge.",
-            "date": "September 2017 - December 2017"
-        },
-        {
-            "title": "Research Scholarship",
+            "title": "Research Scholarship - Borsa di Ricerca",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "The scholarship titled \"Design and implementation of the architecture of a semantic server\" in the frame of \"Content-Centered Computation and the Case of Intentional Actions\". My activity was focused on the design and development of the architecture of a semantic server.",
             "date": "June 2016 - August 2016"
