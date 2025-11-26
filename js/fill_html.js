@@ -190,7 +190,7 @@ function buildSpeakerElem(elem, url, date) {
 		case "academic seminar":
 			labeltype = "label-event-as"
 			break;
-		case "recorded event":
+		default:
 			labeltype = "label-event-re"
 			break;
 	}

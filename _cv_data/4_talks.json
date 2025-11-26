@@ -76,7 +76,14 @@
 				"description": "The Poplar Cult Festival is a music and cultural event that combines live musical acts with cultural events and community programming to revitalize Trentino's artistic landscape and bridge contemporary creative expression with local heritage. Seminar title: 'ChatGPT è un cazzaro (in senso filosofico)'.",
 				"url": "https://www.di.unito.it/~mensa/docs/2024_poplar_speaker_proof.pdf",          
 				"date": "September 2024"
-			}  			  			 			
+			},  		
+			{
+				"title": "Istituto Avogadro (Turin)",
+				"subtitle": "Seminar in Secondary School",
+				"description": "Seminar title: 'AI, reti neurali e GPT' in the scope of the event 'Intelligenza Artificiale: potenzialità, sfide e rischi' organized by the Istituito Avogadro.", 
+				"url": "https://www.di.unito.it/~mensa/docs/2024_avogadro_speaker_proof.pdf",
+				"date": "April 2024"
+			}      				  			 			
 	],
 	"Academic Events": [
 			{
@@ -113,14 +120,7 @@
 				"description": "The Generative AI and the creative industries roundtable explores the transformative impact of generative AI on creative sectors and examine how educational institutions can prepare students and faculty to navigate the benefits and risks of these emerging technologies.",
 				"url": "https://ssst.campusnet.unito.it/do/avvisi.pl/Show?_id=vkeq",                      
 				"date": "November 2024"
-			},       
-			{
-				"title": "Istituto Avogadro (Turin)",
-				"subtitle": "Course Seminar",
-				"description": "Seminar title: 'AI, reti neurali e GPT' in the scope of the event 'Intelligenza Artificiale: potenzialità, sfide e rischi' organized by the Istituito Avogadro.", 
-				"url": "https://www.di.unito.it/~mensa/docs/2024_avogadro_speaker_proof.pdf",
-				"date": "April 2024"
-			},         
+			},          
 			{
 				"title": "Master in Gaming and Esports, IUML (Milan)",
 				"subtitle": "Course Seminar",

@@ -1,5 +1,5 @@
 {
-    "teacher":
+    "Courses":
     [ 
         {
             "title": "Course \"Introduzione all'Informatica e alle Reti\"",
@@ -9,8 +9,15 @@
             "date": "2023 - ongoing"
         }
     ], 
-    "master lecturer":
+    "Masters & Schools":
     [ 
+        {
+            "title": "Lecturer at GAIA 2025 Winter School",
+            "subtitle": "University of Bologna - Department of Computer Science",
+            "description": "During the GAIA 2025 Winter School I lectured 2 hours on the topic \"What are actually Large Language Models?\". The lesson gives an overview of neural networks, embeddings and LLMs, their current applications and limitations.",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_gaia_winterschool.pdf",
+            "date": "November 2025"
+        },              
         {
             "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
             "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
