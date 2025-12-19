@@ -129,20 +129,6 @@
 				"date": "Februrary 2024"
 			}, 
 			{
-				"title": "Master in AI (Turin)",
-				"subtitle": "Course Seminar",
-				"description": "Course 'Techniques for Natural Language Understanding'; Seminar title: 'Sperimentazioni sul calcolo della distanza concettuale fra concetti'.",
-				"url": "https://www.di.unito.it/~mensa/docs/2018_corso_AI_proof.pdf",
-				"date": "March 2018"
-			},  
-			{
-				"title": "Master in Data Science for Complex Economic Systems (Turin)",
-				"subtitle": "Course Seminar",
-				"description": "Seminar title: 'Semantic Resources for Text Document Processing'.",
-				"url": "https://www.di.unito.it/~mensa/docs/2017_seminar_madas_proof.pdf",           
-				"date": "December 2017"
-			},   
-			{
 				"title": "INRIA (Sophia Antipolis, France)",
 				"subtitle": "Academic Seminar",
 				"description": "Seminar title: 'Building wide coverage lexical resources from encyclopedic and common-sense knowledge'.",
