@@ -5,7 +5,7 @@
         {
             "title": "Best Paper Presented By A Young Researcher Award at IEEE MetroXRAINE 2025",
             "subtitle": "Paper 'Violence Detection from Emergy Room Reports'",
-            "url": "https://www.di.unito.it/~mensa/docs/2025_best_paper_metroxaine.png",
+            "url": "https://www.di.unito.it/~mensa/docs/2025_best_paper_metroxaine.pdf",
             "date": "October 2025"
         },         
         {
@@ -54,10 +54,10 @@
             "date": "May 2023 - ongoing"
         },
         {
-            "title": "L'accessibilità dei testi normativi come dispositivo di inclusione",
+            "title": "L'accessibilità dei testi normativi come dispositivo di inclusione (Seconda parte)",
             "subtitle": "Role: development of NLP tools to analyze legal documents, data collection, data analysis",
             "description": "The <us{https://www.univda.it/progetti-di-ricerca/laccessibilita-dei-testi-normativi-come-dispositivo-di-inclusione-studio-di-caso-e-strumenti-applicativi-in-valle-daosta-seconda-parte/}um{project}ue> seeks to foster the dissemination of awareness and best practices in the drafting of legislative and regulatory acts. The theoretical framework is underpinned by the principle of the understandability of normative texts. In collaboration with Università della Valle d'Aosta, project funded by Compagnia CRT. Scientific coordinator: Prof. Antonio Mastropaolo.",
-            "date": "March 2023 - April 2023"
+            "date": "March 2023 - Giugno 2025"
         },
         {
             "title": "PAUSE (Prevention of Assault Under Scientific Evidence)",
@@ -70,6 +70,12 @@
             "subtitle": "Role: analysis of the research problem; design, implementation and testing of the system",
             "description": "The <us{https://unifind.unito.it/resource/project/RADD%5FCRT%5F19%5F01}um{project}ue> project is focused on the development of ViDeS, a system for the automatic analysis of emergency room records and specifically the detection of violent cases. In collaboration with Istituto Superiore di Sanità, funded by Fondazione CRT and UNITO. Scientific coordinator: Prof. Daniele Paolo Radicioni.",
             "date": "February 2019 - April 2023"
+        },
+        {
+            "title": "Autonomous learning of the meaning of objects (ALOOF)",
+            "subtitle": "Role: evaluation of common sense knowledge graphs for object recognition",
+            "description": "I partecipated in the <us{https://project.inria.fr/aloof/2015/09/22/the-aloof-project/}um{project}ue> during my ERASMUS+ period at INRIA (Université Côte d'Azur - France). The goal of ALOOF is to significantly advance the ability of today’s autonomous systems to adapt to ever changing, dynamic real world environments by enabling them to learn about the meaning of objects from resources accessible through the Web.",
+            "date": "September 2017 - December 2017"
         },
         {
             "title": "Tecnologie e metodologia di valutazione di sistemi per l’Information Retrieval su basi di conoscenza aziendali",
