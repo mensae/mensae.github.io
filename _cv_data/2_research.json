@@ -3,6 +3,12 @@
     "awards, grants and certifications":
     [ 
         {
+            "title": "CHANGES Award 2026 Winner",
+            "subtitle": "Project 'Museo Egizio Interattivo', developed within the PNRR CHANGES project",
+            "url": "https://www.di.unito.it/~mensa/docs/2026_changesaward.png",
+            "date": "January 2026"
+        },          
+        {
             "title": "Best Paper Presented By A Young Researcher Award at IEEE MetroXRAINE 2025",
             "subtitle": "Paper 'Violence Detection from Emergency Room Reports'",
             "url": "https://www.di.unito.it/~mensa/docs/2025_best_paper_metroxaine.pdf",

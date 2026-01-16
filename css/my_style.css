@@ -232,6 +232,12 @@
     border: 1px solid #c32b72;
 }
 
+.label-event-asp {
+    /* Academic Speech */
+    background-color: #e93a8b;
+    border: 1px solid #e93a8b;
+}
+
 .label-event-re {
     /* Recorded Event */
     background-color: #60666a;
