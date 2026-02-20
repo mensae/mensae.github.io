@@ -1,6 +1,13 @@
 {
 	"Public Events": [
 			{
+				"title": "Chiedi all'Esperto - Mondadori Education",
+				"subtitle": "Public Event",
+				"description": "Chiedi all'Esperto (Osservare, sperimentare, comunicare) is an online series organized by Mondadori Education, designed to provide school teachers with expert insights and practical answers to common questions on current topics. The episode I participated in focused on 'AI and Science,' exploring how artificial intelligence is shaping scientific disciplines and its implications for education.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_mondadori_educ.pdf",
+				"date": "Februrary 2026"
+			}, 		
+			{
 				"title": "Ital_IA: tra dati pubblici e algoritmi (Milan)",
 				"subtitle": "Public Event",
 				"description": "Ital_IA is a conference held at the Politecnico di Milano and organized by Agenzia delle Dogane e dei Monopoli and Sogei S.p.A. exploring data valorization in public administration, focusing on advanced data processing methodologies and AI integration for enhanced government services. Panel title: 'Ricerca e innovazione nel dominio dei dati'.",
@@ -17,7 +24,7 @@
 			{
 				"title": "L'AI va a scuola",
 				"subtitle": "Seminar in Public Event",
-				"description": "'L'AI va a scuola', organized by ANP (associazione nazionale dirigenti pubblici e alta professionalità della scuola), is a series of webinars for school leaders, teachers, students, and families. Seminar Title: '5 punti di partenza sui LLM'.",
+				"description": "L'AI va a scuola, organized by ANP (associazione nazionale dirigenti pubblici e alta professionalità della scuola), is a series of webinars for school leaders, teachers, students, and families. Seminar Title: '5 punti di partenza sui LLM'.",
 				"url": "https://www.di.unito.it/~mensa/docs/2025_anp.pdf",
 				"date": "September 2025"
 			},          
