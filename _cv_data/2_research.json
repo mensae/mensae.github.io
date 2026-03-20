@@ -158,20 +158,23 @@
     ],
     "reviewer":
     [ 
-        {   "title": "European Conference on Artificial Intelligence (ECAI) 2025",
+        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization (UMAP)",
+            "date": "2026"
+        },           
+        {   "title": "European Conference on Artificial Intelligence (ECAI)",
             "date": "2025"
         },        
-        {   "title": "User Modeling, Adaptation and Personalization (UMAP) 2024",
+        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization (UMAP)",
             "date": "2024"
         },
-        {   "title": "SEMANTICS EU 2023",
+        {   "title": "SEMANTICS EU",
             "date": "2023"
         },      
-        {   "title": "Foundations of Digital Games 2023",
+        {   "title": "Foundations of Digital Games",
             "date": "2023"
         },
         {
-            "title": "Language Resources and Evaluation Conference 2022",
+            "title": "Language Resources and Evaluation Conference",
             "date": "2022"
         },         
         {
@@ -187,11 +190,11 @@
             "date": "2020"
         },        
         {
-            "title": "Conference on Computational Natural Language Learning (ConLL 2019)",
+            "title": "Conference on Computational Natural Language Learning (ConLL)",
             "date": "2019"
         },
         {
-            "title": "34th ACM/SIGAPP Symposium On Applied Computing (SAC 2019)",
+            "title": "34th ACM/SIGAPP Symposium On Applied Computing (SAC)",
             "date": "2019"
         },  
         {
@@ -199,7 +202,7 @@
             "date": "2018"
         },  
         {
-            "title": "20th International Conference on Enterprise Information Systems (ICEIS 18)",
+            "title": "20th International Conference on Enterprise Information Systems (ICEIS)",
             "date": "2017"
         },       
         {

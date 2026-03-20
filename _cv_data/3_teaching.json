@@ -12,6 +12,13 @@
     "Masters & Schools":
     [ 
         {
+            "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
+            "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
+            "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. A brief practical exercise on the evaluation of LLMs was conducted with the students.",
+            "url": "https://www.di.unito.it/~mensa/docs/2026_MEIA_master.pdf",
+            "date": "May 2026"
+        },        
+        {
             "title": "Lecturer at GAIA 2025 Winter School",
             "subtitle": "University of Bologna - Department of Computer Science",
             "description": "During the GAIA 2025 Winter School I lectured 2 hours on the topic \"What are actually Large Language Models?\". The lesson gives an overview of neural networks, embeddings and LLMs, their current applications and limitations.",
@@ -21,7 +28,7 @@
         {
             "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
             "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
-            "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. Students were tasked with the annotation of hate speech messages in order to compare such annotations with the one made by several LLMs.",
+            "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. A brief practical exercise on the evaluation of LLMs was conducted with the students.",
             "url": "https://www.di.unito.it/~mensa/docs/2025_MEIA_master.pdf",
             "date": "June 2025"
         },          
