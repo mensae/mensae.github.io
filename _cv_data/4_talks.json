@@ -1,6 +1,13 @@
 {
 	"Public Events": [
 			{
+				"title": "Interview for Radio Rock FM 106.6 (Rome)",
+				"subtitle": "Public Event",
+				"description": "I was invited as a guest speaker for a segment titled 'AI: stato dell'arte e prossimo futuro', an interview exploring current developments in artificial intelligence and upcoming scenarios in the field.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_radiorock.pdf",
+				"date": "March 2026"
+			}, 			
+			{
 				"title": "Chiedi all'Esperto - Mondadori Education",
 				"subtitle": "Public Event",
 				"description": "Chiedi all'Esperto (Osservare, sperimentare, comunicare) is an online series organized by Mondadori Education, designed to provide school teachers with expert insights and practical answers to common questions on current topics. The episode I participated in focused on 'AI and Science,' exploring how artificial intelligence is shaping scientific disciplines and its implications for education.",
