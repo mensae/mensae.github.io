@@ -101,6 +101,20 @@
 	],
 	"Academic Events": [
 			{
+				"title": "Department of Computer Science (Unito, Turin)",
+				"subtitle": "Course Seminar",
+				"description": "Course 'Tecnologie del Linguaggio Naturale' (Laurea Magistrale); Seminar title: 'Alcune cose che (forse) non sapete sui LLM'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_TNL_proof.pdf",            
+				"date": "April 2026"
+			}, 				
+			{
+				"title": "Department of Law (Unito, Turin)",
+				"subtitle": "Academic Seminar",
+				"description": "Seminar for a group of scholars in administrative law studying AI-related topics; invited by Roberto Cavallo Perin of the Department of Law, University of Turin. Seminar title: 'Introduction to Large Language Models'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_giurisprudenza_proof.pdf",            
+				"date": "April 2026"
+			},			
+			{
 				"title": "Mu Nu Chapter of IEEE-HKN (Politecnico di Torino)",
 				"subtitle": "Academic Seminar",
 				"description": "Seminar open to all students and faculty of the Politecnico di Torino; organized by the Mu Nu Chapter of IEEE-HKN. Seminar title: 'Scrivere ad una macchina: come ci capiscono i LLM?'.",
