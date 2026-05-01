@@ -12,7 +12,14 @@
     "Masters & Schools":
     [ 
         {
-            "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
+            "title": "Lecturer in first level Master in Diritto dell'Intelligente Amministrare (MDIA)",
+            "subtitle": "University of Turin - Department of Law",
+            "description": "During the MDIA master I lectured 4 hours by providing an overview of the basic concepts of neural networks, embeddings and LLM training. Two demos were presented: one concerning the use of RAGs and the other on data annotation and reinforcement learning from human feedback.",
+            "url": "https://www.di.unito.it/~mensa/docs/2026_MDIA_master.pdf",
+            "date": "May 2026"
+        },        
+        {
+            "title": "Lecturer in first level Master Etica e Intelligenza Artificiale (MEIA)",
             "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
             "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. A brief practical exercise on the evaluation of LLMs was conducted with the students.",
             "url": "https://www.di.unito.it/~mensa/docs/2026_MEIA_master.pdf",
@@ -26,7 +33,7 @@
             "date": "November 2025"
         },              
         {
-            "title": "Lecturer in Master Etica e intelligenza artificiale (MEIA)",
+            "title": "Lecturer in first level Master Etica e Intelligenza Artificiale (MEIA)",
             "subtitle": "University of Turin - Department of Philosophy and Education Sciences",
             "description": "During the MEIA master I lectured 4 hours on the topic \"A brief introduction to LLMs\". During the lesson I have introduced the basic concepts of neural networks, embeddings and LLMs. A brief practical exercise on the evaluation of LLMs was conducted with the students.",
             "url": "https://www.di.unito.it/~mensa/docs/2025_MEIA_master.pdf",
