@@ -109,17 +109,17 @@
     "Journal Editorial Duties":
     [
         {
-            "title": "<us{http://bit.ly/4nFyyX0}um{Language and Computation}ue> (section of Frontiers in Artificial Intelligence)",
+            "title": "<us{https://link.springer.com/collections/gdifdjgjii}um{Reliability and Bias in LLM-as-a-Judge Approaches}ue> Collection Editor (in Discover Artificial Intelligence, Springer Nature)",
+            "subtitle": "Editor of a Collection",
+            "date": "2026"
+        },        
+        {
+            "title": "<us{https://www.frontiersin.org/journals/artificial-intelligence/sections/language-and-computation}um{Language and Computation}ue> (section of Frontiers in Artificial Intelligence)",
             "subtitle": "Review Editor on the Editorial Board",
             "date": "2023 - ongoing"
         },
         {
-            "title": "<us{https://bit.ly/4pNPU48}um{Reliability and Bias in LLM-as-a-Judge Approaches}ue> Collection Editor (in Discover Artificial Intelligence, Springer Nature)",
-            "subtitle": "Editor of a Collection",
-            "date": "2026"
-        },
-        {
-            "title": "<us{https://bit.ly/3rlEhpo}um{Information Extraction for Health Documents}ue> Editor (in Frontiers in Artificial Intelligence)",
+            "title": "<us{https://www.frontiersin.org/research-topics/34038/information-extraction-for-health-documents/magazine}um{Information Extraction for Health Documents}ue> Editor (in Frontiers in Artificial Intelligence)",
             "subtitle": "Special Issue Editor",
             "date": "2022"
         }

@@ -65,6 +65,7 @@ function fillAnyCategory(container, cat_data) {
 
 				//subcategory specific stuff
 				switch (subcat_name.toLowerCase()) {
+					case "events": 
 					case "public events": 
 					case "academic events": 
 						content += buildSpeakerElem(elem, url, date);
@@ -181,6 +182,8 @@ function buildSpeakerElem(elem, url, date) {
 		case "public event":
 			labeltype = "label-event-pe";
 			break;
+		case "seminar":
+		case "seminar & workshop":
 		case "seminar in public event":
 			labeltype = "label-event-spe";
 			break;

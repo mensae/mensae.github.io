@@ -1,9 +1,30 @@
 {
-	"Public Events": [
+	"Events": [
+			{
+				"title": "Digital Neuro Hub (Cascina Erbatici, Pavia)",
+				"subtitle": "Seminar",
+				"description": "Digital Neuro Hub is a training program on Digital Health, born from the partnership between SIN (Italian Society of Neurology) and Biogen, focused on the acquisition of new skills driven by technological innovation to improve care for patients with complex chronic neurological diseases. I delivered a talk titled 'Introduction to LLMs.'",				
+				"url": "https://www.di.unito.it/~mensa/docs/2026_digital_neuro_hub.pdf",
+				"date": "June 2026"
+			}, 		
+			{
+				"title": "Marco Cappato YouTube Channel",
+				"subtitle": "Recorded Event",
+				"description": "Invited as guest speaker on Marco Cappato's YouTube channel for an in-depth one-hour conversation on artificial intelligence. The full interview was published on the YouTube channel and promoted across social media.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_cappato.pdf",
+				"date": "May 2026"
+			},						
+			{
+				"title": "Turning Around Safety (TAS 2026) (Pollenzo, Turin)",
+				"subtitle": "Seminar & Workshop",
+				"description": "Turning Around Safety (TAS 2026) is the fourth edition of an experiential training event organized by SICURLAV, structured as a hands-on laboratory addressing key topics in workplace safety in light of the new State-Regions Agreement. I held a 8h of seminars and workshops introducing the fundamentals of LLMs and their feasibility in the context of managing occupational safety documentation.",				
+				"url": "https://www.di.unito.it/~mensa/docs/2026_TAS.pdf",
+				"date": "April 2026"
+			}, 							
 			{
 				"title": "Radio Rock FM 106.6",
 				"subtitle": "Public Event",
-				"description": "I was invited as a guest speaker for a segment titled 'AI: stato dell'arte e prossimo futuro', an interview exploring current developments in artificial intelligence and upcoming scenarios in the field.",
+				"description": "Invited as guest speaker for a segment titled 'AI: stato dell'arte e prossimo futuro', an interview exploring current developments in artificial intelligence and upcoming scenarios in the field.",
 				"url": "https://www.di.unito.it/~mensa/docs/2026_radiorock.pdf",
 				"date": "March 2026"
 			}, 			
@@ -12,7 +33,7 @@
 				"subtitle": "Public Event",
 				"description": "Chiedi all'Esperto (Osservare, sperimentare, comunicare) is an online series organized by Mondadori Education, designed to provide school teachers with expert insights and practical answers to common questions on current topics. The episode I participated in focused on 'AI and Science,' exploring how artificial intelligence is shaping scientific disciplines and its implications for education.",
 				"url": "https://www.di.unito.it/~mensa/docs/2026_mondadori_educ.pdf",
-				"date": "Februrary 2026"
+				"date": "February 2026"
 			}, 		
 			{
 				"title": "Ital_IA: tra dati pubblici e algoritmi (Milan)",
@@ -72,10 +93,10 @@
 			},           
 			{
 				"title": "GDPR Forum (Reggio Emilia)",
-				"subtitle": "Seminar in Public Event",
+				"subtitle": "Seminar",
 				"description": "The GDPR Forum is a PrivacyLab-sponsored event bringing together sector stakeholders to establish best practices for balancing AI advancement with personal data protection regulations and ethical standards. Seminar title: 'ChatGPT è un cazzaro: 5 punti fermi sui Large Language Models'.",
 				"url": "https://www.di.unito.it/~mensa/docs/2025_gdprforum_speaker_proof.pdf",       
-				"date": "Februrary 2025"
+				"date": "February 2025"
 			},         
 			{
 				"title": "Connessioni Invisibili - 8ª Giornata Nazionale Dipendenze Tecnologiche e Cyberbullismo (Siena)",
@@ -175,7 +196,7 @@
 				"subtitle": "Course Seminar",
 				"description": "Course Programming and Game Development; Seminar title: 'Le basi della programmazione'.",
 				"url": "https://www.di.unito.it/~mensa/docs/2024_iuml_speaker_proof.pdf",            
-				"date": "Februrary 2024"
+				"date": "February 2024"
 			}, 
 			{
 				"title": "Department of Computer Science (Unito, Turin)",
