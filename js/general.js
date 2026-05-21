@@ -4,7 +4,7 @@ const BPATH = location.hostname.endsWith("github.io")?  REPO+"_cv_data/": "_cv_d
 
 function getDataAndFill(where, containers) {
 
-	$.when(
+	return $.when(
 		$.get(BPATH+'0_publications.bib'),
 		$.getJSON(BPATH+'1_experiences.json'),
 		$.getJSON(BPATH+'2_research.json'),

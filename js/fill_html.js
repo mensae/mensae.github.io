@@ -65,10 +65,10 @@ function fillAnyCategory(container, cat_data) {
 
 				//subcategory specific stuff
 				switch (subcat_name.toLowerCase()) {
-					case "events": 
-					case "public events": 
-					case "academic events": 
-						content += buildSpeakerElem(elem, url, date);
+					case "academic":
+					case "public":
+					case "media & interviews":
+						content += buildSpeakerElem(elem, url, date, subcat_name);
 						break;
 					case "education":
 						content += buildEducationElem(elem);
@@ -166,40 +166,32 @@ function buildScicomElem(elem) {
 /**
 Fills the HTML for edutainment
 */
-function buildSpeakerElem(elem, url, date) {
+function buildSpeakerElem(elem, url, date, subcat_name) {
 	content = "";
 
-	content += '<div class="section">';
+	// determine category slug + label class FIRST (needs to go on the section div)
+	let categorySlug = "";
+	let labeltype = "";
+	switch (subcat_name.toLowerCase()) {
+		case "academic":
+			labeltype = "label-event-academic";
+			categorySlug = "academic";
+			break;
+		case "public":
+			labeltype = "label-event-public";
+			categorySlug = "public";
+			break;
+		case "media & interviews":
+			labeltype = "label-event-media";
+			categorySlug = "media";
+			break;
+	}
+
+	content += '<div class="section" data-category="' + categorySlug + '">';
 	content += '<div class="title-container">';
 	content += '<div class="title">' + innerURLsToHTML(elem.title) + '</div>';
 	content += '<span class="r-label-container">' + url + date + '</span>'
 	content += "</div>"
-
-
-	//the title is the type
-	labeltype = "";
-	switch (elem.subtitle.toLowerCase()) {
-		case "public event":
-			labeltype = "label-event-pe";
-			break;
-		case "seminar":
-		case "seminar & workshop":
-		case "seminar in public event":
-			labeltype = "label-event-spe";
-			break;
-		case "course seminar":
-			labeltype = "label-event-cs"
-			break;
-		case "academic seminar":
-			labeltype = "label-event-as"
-			break;
-		case "academic speech":
-			labeltype = "label-event-asp"
-			break;			
-		default:
-			labeltype = "label-event-re"
-			break;
-	}
 
 	var subt = '<span class="label-event-type ' + labeltype + '">' + elem.subtitle + '</span>'
 	content += '<div class="subtitle">' + subt + '</div>';
@@ -210,7 +202,6 @@ function buildSpeakerElem(elem, url, date) {
 	content += '</div>'
 
 	return content;
-
 }
 
 

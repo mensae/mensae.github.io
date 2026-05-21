@@ -445,6 +445,7 @@
 <section id="talks" class="bg-white t-center">
 
 
+
 	<!--Content-->	
 	<div class="content">
 
@@ -610,6 +611,7 @@
 <script src="js/bibtexParse.js"></script>
 <script src="js/general.js"></script>
 <script src="js/fill_html.js"></script>
+<script src="js/filtering.js"></script>
 
 
 <script>
@@ -648,7 +650,9 @@ $(document).ready(function(){
 		$("#experiences-container"),
 		$("#talks-container"),
 		$("#scicom-container")
-	])
+	]).done(function() {
+    	setupEventsFiltering("#talks-container");
+	});
 	
 	//parse get parameter for 
 	const urlParams = new URLSearchParams(window.location.search);
@@ -672,7 +676,9 @@ $(document).ready(function(){
 		// Update the browser URL without reloading the page
 		window.history.pushState({}, '', url);
 	});
-	
+
+	//setup filtering for talks
+	setupEventsFiltering("#talks-container");
 }); 
 
 

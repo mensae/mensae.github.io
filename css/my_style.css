@@ -199,50 +199,103 @@
 /* EVENT LABELS */
 
 .label-event-type {
-    margin-left:0;
-    padding: 0px 4px;
-    font-size: 85%;
-    font-weight: 500;
-    color: #ffffff;
-    border-radius: .25em;
-    border: 1px solid grey;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    /* matches your normal subtitle style */
+    font-size: 13px;
+    font-weight: inherit;
+    text-transform: none;
+    letter-spacing: normal;
+    color: inherit;
+    font-style: italic;
 }
 
-.label-event-pe {
-    /* Public Event */
-    background-color: #196ca3;
-    border: 1px solid #196ca3;  
+
+
+.section[data-category] .title {
+    position: relative;          /* needed so ::before can be positioned, if you want absolute */
+    display: inline-flex;        /* lets the accent sit inline with text */
+    align-items: center;
+    gap: 5px;
 }
 
-.label-event-spe {
-    /* Seminar in Public Event */
-    background-color: #218ed6;
-    border: 1px solid #218ed6;  
+.section[data-category] .title::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    flex-shrink: 0;
 }
 
-.label-event-cs {
-    /* Course Seminar */
-    background-color: #dc4f91;
-    border: 1px solid #dc4f91;
+
+
+/* color per category */
+.section[data-category="academic"] .title::before { background: #b8588a; }
+.section[data-category="public"]   .title::before { background: #4a8bbf; }
+.section[data-category="media"]    .title::before { background: #3d8c5a;; }
+
+/* keep the saturated category colors — only the dot is colored */
+.label-event-academic::before { background: #b8588a; }
+.label-event-public::before   { background: #4a8bbf; }
+.label-event-media::before    { background: #3d8c5a; }
+
+
+.filter-bar {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: -40px;          /* compensate for the absolute ::before */
+    margin-bottom: 32px;
+}
+.filter-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: "Roboto Slab", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: rgb(42, 42, 42);
+    opacity: 0.35;
+    transition: opacity 0.15s;
+    position: relative;
+    margin-top: 28px;            /* room above for the accent */
 }
 
-.label-event-as {
-    /* Academic Seminar */
-    background-color: #c32b72;
-    border: 1px solid #c32b72;
+.filter-btn::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    width: 20px;
+    height: 8px;
+    background: #18cc7f;
+    opacity: 0;
+    transition: opacity 0.15s;
 }
 
-.label-event-asp {
-    /* Academic Speech */
-    background-color: #e93a8b;
-    border: 1px solid #e93a8b;
-}
+.filter-btn:hover { opacity: 0.7; }
 
-.label-event-re {
-    /* Recorded Event */
-    background-color: #60666a;
-    border: 1px solid #495156;
-}
+.filter-btn.active { opacity: 1; }
+.filter-btn.active::before { opacity: 1; }
+
+/* The filtering itself — pure CSS */
+/* hide all category headers by default */
+h2.category-header[data-category] { display: none; }/* category headers are never shown — the filter buttons convey the category */
+
+/* show only the active one */
+body[data-active-filter="academic"] .section[data-category]:not([data-category="academic"]) { display: none; }
+body[data-active-filter="public"]   .section[data-category]:not([data-category="public"])   { display: none; }
+body[data-active-filter="media"]    .section[data-category]:not([data-category="media"])    { display: none; }
 
 
 
