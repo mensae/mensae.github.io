@@ -80,6 +80,13 @@
     "thesis advisor":
     [ 
         {
+            "title": "Thesis: \"MusiProbe: un benchmark musicale per misurare accuratezza e allucinazioni nei Large Language Models\"",
+            "subtitle": "Candidate: Virginia Pani",
+            "description": "University of Turin - Department of Cultures, Politics and Society",
+            "url": "",
+            "date": "2026"
+        },             
+        {
             "title": "Master's Thesis: \"Storie curatoriali interattive: dalla modellazione all’editing. Un caso di studio per il Museo Egizio nel progetto CHANGES\"",
             "subtitle": "Candidate: Chiara Fulfaro",
             "description": "University of Turin - Department of Computer Science",
