@@ -150,7 +150,16 @@
             "date": "2016"
         }        
     ],
-
+    "thesis examiner (controrelatore)":
+    [ 
+        {
+            "title": "Master Thesis: \"Hateful Language Through Time: Language Resources for Detecting Lexical Semantic Shift of Hate Words in English\"",
+            "subtitle": "Candidate: Dario Franzese",
+            "description": "University of Turin - Department of Computer Science",
+            "url": "",
+            "date": "2026"
+        }
+    ],
     "tutorships":
     [
         {

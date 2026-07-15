@@ -180,6 +180,13 @@
 	],
 	"Media & Interviews": [
 			{
+				"title": "Rai News 24",
+				"subtitle": "Appearance",
+				"description": "A brief commentary for Rai News 24 on Apple's lawsuit against OpenAI, alleging trade secret theft related to OpenAI's entry into consumer hardware.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_rainews24openai.mp4",
+				"date": "July 2026"
+			},	
+			{
 				"title": "Marco Cappato YouTube Channel",
 				"subtitle": "Interview",
 				"description": "Invited as guest speaker on Marco Cappato's YouTube channel for an in-depth one-hour conversation on artificial intelligence. The full interview was published on the YouTube channel and promoted across social media.",
