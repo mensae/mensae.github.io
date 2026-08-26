@@ -46,18 +46,25 @@
         }        
     ],
     "research projects":
+    
     [
+        {
+            "title": "FUEL ECLI (FavoUring rEciprocaL access of Eu members states Courts to case-Law Indexed and translated) ",
+            "subtitle": "Role: consultant for the scientific and technical aspects of the project",
+            "description": "The <us{https://unifind.unito.it/resource/project/DECR%5FJUSTICE%5F26%5F01}um{project}ue> aims to facilitate cross-border access to EU case law through the large-scale indexing and automatic translation of national supreme court judgments. The Department of Computer Science at the University of Turin develops the multilingual semantic indexing system and neural search engine, enabling users to retrieve relevant legal content across languages and jurisdictions. Funded by the European Commission under the 2025 e-Justice call. Coordinator: Prof. Riccardo de Caria.",
+            "date": "September 2026 - September 2028"
+        },          
         {
             "title": "AI4Re-Story (Storie di Restauro Raccontate dall'Intelligenza Artificiale) ",
             "subtitle": "Role: consultant for the scientific and technical aspects of the project",
             "description": "The <us{https://unifind.unito.it/resource/project/PISP_CRT_25_01}um{project}ue>  aims to develop a Generative AI toolkit to enhance communication of art restoration processes, designed for professionals and validated through collaboration with the \"La Venaria Reale\" Conservation Center. Funded by Compagnia CRT. Coordinator: Prof. Paola Pisano.",
-            "date": "March 2025 - ongoing"
+            "date": "March 2025 - 30 June 2027"
         },        
         {
             "title": "CHANGES (Cultural Heritage Active Innovation For Next-Gen Sustainable Society) ",
             "subtitle": "Role: management of the pilot study concerning the Museo Egizio in Torino",
             "description": "The <us{https://unifind.unito.it/resource/project/CUNG_PNRR_PE_22_01}um{project}ue> \"CHANGES\", Tematica 5 (Cultural Heritage as Laboratory of Innovation and Creativity) - Spoke 4 - Virtual Technologies for Museums and Art Collections. Coordinator: Prof. Rossana Damiano.",
-            "date": "May 2023 - ongoing"
+            "date": "May 2023 - February 2026"
         },
         {
             "title": "L'accessibilità dei testi normativi come dispositivo di inclusione (Seconda parte)",
