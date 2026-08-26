@@ -50,7 +50,7 @@
     [
         {
             "title": "FUEL ECLI (FavoUring rEciprocaL access of Eu members states Courts to case-Law Indexed and translated) ",
-            "subtitle": "Role: consultant for the scientific and technical aspects of the project",
+            "subtitle": "Role: consultant for the project's computational and technological aspects",
             "description": "The <us{https://unifind.unito.it/resource/project/DECR%5FJUSTICE%5F26%5F01}um{project}ue> aims to facilitate cross-border access to EU case law through the large-scale indexing and automatic translation of national supreme court judgments. The Department of Computer Science at the University of Turin develops the multilingual semantic indexing system and neural search engine, enabling users to retrieve relevant legal content across languages and jurisdictions. Funded by the European Commission under the 2025 e-Justice call. Coordinator: Prof. Riccardo de Caria.",
             "date": "September 2026 - September 2028"
         },          
