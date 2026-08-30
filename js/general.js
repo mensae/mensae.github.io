@@ -6,17 +6,17 @@ function getDataAndFill(where, containers) {
 
 	return $.when(
 		$.get(BPATH+'0_publications.bib'),
-		$.getJSON(BPATH+'1_experiences.json'),
+		$.getJSON(BPATH+'1_career.json'),
 		$.getJSON(BPATH+'2_research.json'),
 		$.getJSON(BPATH+'3_teaching.json'),
 		$.getJSON(BPATH+'4_talks.json'),
 		$.getJSON(BPATH+'5_scicom.json')
 
-	).done(function (publications, experiences, research, teaching, talks, scicomm) {
+	).done(function (publications, career, research, teaching, talks, scicomm) {
 		data = {}; 
 
 		data["publications"] =  bibtexParse.toJSON(publications[0])
-		data["experiences"] = experiences[0];
+		data["career"] = career[0];
 		data["research"] = research[0];
 		data["teaching"] = teaching[0];
 		data["talks"] = talks[0];

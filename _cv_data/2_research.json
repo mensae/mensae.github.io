@@ -104,16 +104,7 @@
         }                
         
     ],
-    "international experience":
-    [ 
-        {
-            "title": "Research Internship",
-            "subtitle": "INRIA, Sophia Antipolis (France)",
-            "description": "After being granted a scholarship of three months within the ERASMUS+ program, I was guest of the Wimmics group of INRIA, in Sophia Antipolis. During this period abroad I worked on the <us{https://project.inria.fr/aloof/2015/09/22/the-aloof-project/}um{ALOOF project}ue>, focusing on exploiting semantics in order to perform object and scene recognition tasks.",
-            "date": "May 2018 - July 2018"
-            }
-    ],
-    "Journal Editorial Duties":
+    "Editorial Roles":
     [
         {
             "title": "<us{https://link.springer.com/collections/gdifdjgjii}um{Reliability and Bias in LLM-as-a-Judge Approaches}ue> Collection Editor (in Discover Artificial Intelligence, Springer Nature)",

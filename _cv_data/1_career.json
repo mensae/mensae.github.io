@@ -1,4 +1,36 @@
 {
+    "education": [
+        {
+            "title": "Doctor's Degree in Computer Science with Honour",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "",
+            "specialization": "",
+            "thesis": "Using Senses Makes Sense: building lexical resources for sense informed NLP applications",
+            "themes": "Lexical Semantics, Semantic Resources, Knowledge Representation, Natural Language Processing",
+            "date": "October 2016 - July 2020",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_PhD_Thesis.pdf"
+        },
+        {
+            "title": "Master's Degree in Computer Science",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "110/110 summa cum laude and special mention for the complessive curricula and thesis value",
+            "specialization": "Systems for the Knowledge Treatment",
+            "thesis": "Design and implementation of a methodology for the alignment of semantic resources and the automatic population of conceptual spaces",
+            "themes": "Conceptual Spaces, Cognitive Systems, Semantic Resources, Natural Language Processing",
+            "date": "September 2013 - April 2016",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Master_Thesis.pdf"
+        },
+        {
+            "title": "Bachelor's Degree in Computer Science",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "score": "110/110 summa cum laude",
+            "specialization": "Network & Systems",
+            "thesis": "Introducing Java 8",
+            "themes": "Traits, Mixins, Java 8, Default Method",
+            "date": "September 2010 - October 2013",
+            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Doctor_Thesis.pdf"
+        }
+    ],
     "Research Fellowship & Scholarships": [
         {
             "title": "Fixed Term Research Fellow - Ricercatore a Tempo Determinato (RTDa)",
@@ -37,39 +69,17 @@
             "date": "June 2016 - August 2016"
         }
     ],
-      "education": [
+
+    "international experience":
+    [ 
         {
-            "title": "Doctor's Degree in Computer Science with Honour",
-            "subtitle": "University of Turin - Department of Computer Science",
-            "score": "",
-            "specialization": "",
-            "thesis": "Using Senses Makes Sense: building lexical resources for sense informed NLP applications",
-            "themes": "Lexical Semantics, Semantic Resources, Knowledge Representation, Natural Language Processing",
-            "date": "October 2016 - July 2020",
-            "url": "https://www.di.unito.it/~mensa/docs/Mensa_PhD_Thesis.pdf"
-        },
-        {
-            "title": "Master's Degree in Computer Science",
-            "subtitle": "University of Turin - Department of Computer Science",
-            "score": "110/110 summa cum laude and special mention for the complessive curricula and thesis value",
-            "specialization": "Systems for the Knowledge Treatment",
-            "thesis": "Design and implementation of a methodology for the alignment of semantic resources and the automatic population of conceptual spaces",
-            "themes": "Conceptual Spaces, Cognitive Systems, Semantic Resources, Natural Language Processing",
-            "date": "September 2013 - April 2016",
-            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Master_Thesis.pdf"
-        },
-        {
-            "title": "Bachelor's Degree in Computer Science",
-            "subtitle": "University of Turin - Department of Computer Science",
-            "score": "110/110 summa cum laude",
-            "specialization": "Network & Systems",
-            "thesis": "Introducing Java 8",
-            "themes": "Traits, Mixins, Java 8, Default Method",
-            "date": "September 2010 - October 2013",
-            "url": "https://www.di.unito.it/~mensa/docs/Mensa_Doctor_Thesis.pdf"
-        }
+            "title": "Research Internship",
+            "subtitle": "INRIA, Sophia Antipolis (France)",
+            "description": "After being granted a scholarship of three months within the ERASMUS+ program, I was guest of the Wimmics group of INRIA, in Sophia Antipolis. During this period abroad I worked on the <us{https://project.inria.fr/aloof/2015/09/22/the-aloof-project/}um{ALOOF project}ue>, focusing on exploiting semantics in order to perform object and scene recognition tasks.",
+            "date": "May 2018 - July 2018"
+            }
     ],
-    "other positions": 
+    "Academic Service": 
     [
         {
             "title": "Department Board Member",
