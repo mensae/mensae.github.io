@@ -65,6 +65,7 @@ function setupEventsFiltering(container) {
 		$unified.find('.filter-btn').removeClass('active');
 		$(this).addClass('active');
 		document.body.dataset.activeFilter = filter;
+		renderPageTableOfContents("talks");
 	});
 	document.body.dataset.activeFilter = "all";
 }

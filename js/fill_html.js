@@ -73,9 +73,10 @@ function fillAnyCategory(container, cat_data) {
 					case "education":
 						content += buildEducationElem(elem);
 						break;
-					case "contributions":
-						content += buildScicomElem(elem);
-						break;
+					case "youtube":
+					case "articles":
+						content += buildScicommElem(elem, subcat_name);
+						break;						
 					default: // default rendering for all remaining subcategories
 						content += '<div class="section">';
 						content += '<div class="title-container">';
@@ -134,15 +135,15 @@ function buildEducationElem(elem) {
 /**
 Fills the HTML for science communication
 */
-function buildScicomElem(elem) {
+function buildScicommElem(elem, platform) {
 	var content = "";
 
 	//parse platform
 	var icon = ""
-	switch (elem.platform.toLowerCase()) {
+	switch (platform.toLowerCase()) {
 		case "youtube": icon = '<i class="fab fa-youtube" style="color:red" ></i>&nbsp;'; break;
 		case "twitch": icon = '<i class="fab fa-twitch"></i>&nbsp;'; break;
-		case "blog": icon = '<i class="far fa-file-alt style="color:#777"></i>&nbsp;'; break;
+		case "articles": icon = '<i class="far fa-file-alt" style="color:#777"></i>&nbsp;'; break;
 		default: icon = '<i class="fas fa-video"></i>&nbsp;'; break;
 	}
 
@@ -168,6 +169,9 @@ Fills the HTML for speaker element
 */
 function buildSpeakerElem(elem, url, date, subcat_name) {
 	content = "";
+	// Expose the final four-digit year to the Talks table of contents.
+	var yearMatch = String(elem.date || "").match(/\d{4}(?!.*\d{4})/);
+	var tocYear = yearMatch ? ' data-toc-year="' + yearMatch[0] + '"' : "";
 
 	// determine category slug + label class FIRST (needs to go on the section div)
 	let categorySlug = "";
@@ -187,7 +191,7 @@ function buildSpeakerElem(elem, url, date, subcat_name) {
 			break;
 	}
 
-	content += '<div class="section" data-category="' + categorySlug + '">';
+	content += '<div class="section" data-category="' + categorySlug + '"' + tocYear + '>';
 	content += '<div class="title-container">';
 	content += '<div class="title">' + innerURLsToHTML(elem.title) + '</div>';
 	content += '<span class="r-label-container">' + url + date + '</span>'
@@ -276,4 +280,3 @@ function innerURLsToHTML(str) {
 	str = str.replace(/}ue>/g, "</a>");
 	return str;
 }
-

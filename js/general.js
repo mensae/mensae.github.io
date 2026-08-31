@@ -10,7 +10,7 @@ function getDataAndFill(where, containers) {
 		$.getJSON(BPATH+'2_research.json'),
 		$.getJSON(BPATH+'3_teaching.json'),
 		$.getJSON(BPATH+'4_talks.json'),
-		$.getJSON(BPATH+'5_scicom.json')
+		$.getJSON(BPATH+'5_scicomm.json')
 
 	).done(function (publications, career, research, teaching, talks, scicomm) {
 		data = {}; 
@@ -20,7 +20,7 @@ function getDataAndFill(where, containers) {
 		data["research"] = research[0];
 		data["teaching"] = teaching[0];
 		data["talks"] = talks[0];
-		data["scicom"] = scicomm[0];
+		data["scicomm"] = scicomm[0];
 
 		// preprocess bib entries
 		preprocessBib(data["publications"])
@@ -54,7 +54,7 @@ const PDF_ICON = '<i class="far fa-save"></i>'
 var pageTocHeadings = [];
 var pageTocScrollScheduled = false;
 var pageTocPinnedHeadingId = null;
-var PAGE_TOC_EXCLUDED_SECTIONS = ["about", "talks", "scientific_communication"];
+var PAGE_TOC_EXCLUDED_SECTIONS = ["about"];
 
 function setupPageTableOfContents() {
 	var activeHref = $("#main-nav a.active").attr("href") || "#about";
@@ -99,10 +99,28 @@ function renderPageTableOfContents(sectionId) {
 	if (PAGE_TOC_EXCLUDED_SECTIONS.indexOf(sectionId) !== -1)
 		return;
 
+	var targets = [];
+	if (sectionId === "talks") {
+		var activeFilter = document.body.dataset.activeFilter || "all";
+		var usedYears = {};
+		$("#talks .section[data-toc-year]").each(function() {
+			var year = this.getAttribute("data-toc-year");
+			var category = this.getAttribute("data-category");
+			if ((activeFilter === "all" || category === activeFilter) && !usedYears[year]) {
+				usedYears[year] = true;
+				targets.push({ element: this, label: year });
+			}
+		});
+	} else {
+		$("#" + sectionId + " .sub-title h2").each(function() {
+			targets.push({ element: this, label: $.trim($(this).text()) });
+		});
+	}
+
 	var usedIds = {};
-	$("#" + sectionId + " .sub-title h2").each(function(index) {
-		var heading = this;
-		var label = $.trim($(heading).text());
+	$.each(targets, function(index, target) {
+		var heading = target.element;
+		var label = target.label;
 		if (label === "")
 			return;
 

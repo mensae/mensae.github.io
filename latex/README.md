@@ -51,7 +51,7 @@ i segnaposto fra doppie graffe:
 ```
 
 Il nome di un segnaposto è quello del file in `_cv_data/`, senza numero né
-estensione: `career`, `research`, `teaching`, `talks`, `scicom`,
+estensione: `career`, `research`, `teaching`, `talks`, `scicomm`,
 `publications`. Nel JavaScript non c'è nessun elenco di file né di sezioni: i
 segnaposto vengono cercati nel testo con una regex, e i nomi dei file li sa
 solo `js/general.js`, come per la pagina HTML.

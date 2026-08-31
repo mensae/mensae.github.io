@@ -67,7 +67,7 @@ function fillAnyCategory(container, cat_data) {
 						content += buildEducationElem(elem, date);
 						break;
 					case "contributions":
-						content += buildScicomElem(elem);
+						content += buildScicommElem(elem);
 						break;
 					default: // default rendering for all remaining subcategories
 						content += elem.hasOwnProperty('subtitle')?
@@ -138,9 +138,9 @@ function buildEducationElem(elem, date) {
 
 
 /**
-* Builds a scicom block: same as an entry, but the views take the place of the date.
+* Builds a scicomm block: same as an entry, but the views take the place of the date.
 */
-function buildScicomElem(elem) {
+function buildScicommElem(elem) {
 	var content = "";
 
 	content += '\\entry{'+newLineForLatexBold(innerURLsToLatex(elem.title), elem.views)+'}';
