@@ -1,7 +1,6 @@
 {
 
-    "Contributions":    
-    [
+    "Youtube": [
         {
             "title": "Enkk - AI without Hype",
             "url": " https://www.youtube.com/@enkk/videos",
@@ -11,28 +10,20 @@
             "views": "4.000.000+ total views"
         }, 
         {
-            "title": "How do you Evaluate a Large Language Model",
-            "url": " https://techdale.it/come-si-valuta-un-large-language-model/",
-            "platform": "blog",
-            "subtitle":"Blog post on Techdale.it",            
-            "description": "This blog post introduces the notions of benchmarks and explains the challenges in evaluating Large Language Models.",
-            "views": ""
-        },        
-        {
-            "title": "Artificial Intelligence Has Been Everywhere for Years",
-            "url": "https://techdale.it/sono-anni-che-lintelligenza-artificiale-e-ovunque/",
-            "platform": "blog",
-            "subtitle":"Blog post on Techdale.it",            
-            "description": "This blog post explores the distinction between Artificial Intelligence and Large Language Models, addressing some of the concerns surrounding the growing hype around LLMs.",
-            "views": ""
-        },
+            "title": "AI Fundamentals",
+            "url": "https://www.youtube.com/playlist?list=PLMP9hIwoX2DuQz3kaSApk4h4_p4WVqfHI",
+            "platform": "youtube",
+            "subtitle":" A course on LLMs and AI",            
+            "description": "This playlists offers a clear and practical introduction to the fundamentals of Artificial Intelligence and Large Language Models, starting from the basics and progressing to more advanced topics.",
+            "views": "800K+ views"
+        },          
         {
             "title": "How Does it Work?",
             "url": "https://www.youtube.com/playlist?list=PLMP9hIwoX2DuQz3kaSApk4h4_p4WVqfHI",
             "platform": "youtube",
             "subtitle":" An insight on Neural Networks",            
             "description": "This series focuses on Neural Networks, providing an insight on the development of various NN models, from the perceptron to the transformers.",
-            "views": "150K+ views"
+            "views": "170K+ views"
         },        
         {
             "title": "Programming Python",
@@ -48,7 +39,7 @@
             "platform": "youtube",
             "subtitle": "How to write documents like a pro-player",
             "description": "In this live lecture I provide an introduction to LaTeX: how to write properly formatted documents.",
-            "views": "160K+ views"
+            "views": "180K+ views"
         },    
         {
             "title": "Dealing with University",
@@ -58,5 +49,24 @@
             "description": "University can be challenging. In this video I talk about my experience at Uni, providing some tips on how to manage the stress and the workload.",
             "views": "190K+ views"            
         }
+    ],
+    "Blog posts": [
+        {
+            "title": "How do you Evaluate a Large Language Model",
+            "url": " https://techdale.it/come-si-valuta-un-large-language-model/",
+            "platform": "blog",
+            "subtitle":"Blog post on Techdale.it",            
+            "description": "This blog post introduces the notions of benchmarks and explains the challenges in evaluating Large Language Models.",
+            "views": ""
+        },        
+        {
+            "title": "Artificial Intelligence Has Been Everywhere for Years",
+            "url": "https://techdale.it/sono-anni-che-lintelligenza-artificiale-e-ovunque/",
+            "platform": "blog",
+            "subtitle":"Blog post on Techdale.it",            
+            "description": "This blog post explores the distinction between Artificial Intelligence and Large Language Models, addressing some of the concerns surrounding the growing hype around LLMs.",
+            "views": ""
+        }
+
     ]
 }
