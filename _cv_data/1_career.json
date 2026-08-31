@@ -82,15 +82,15 @@
     "Academic Service": 
     [        
         {
-            "title": "Department Council Member (Giunta di Dipartimento)",
+            "title": "Department Board Member (Giunta di Dipartimento)",
             "subtitle": "University of Turin - Department of Computer Science",
-            "description": "Representative of Fixed Term Researchers in the Department Council.",
+            "description": "Representative of Fixed Term Researchers in the Department Board.",
             "date": "since October 2023"
         },
         {
-            "title": "Department Board Member (Consiglio di Dipartimento)",
+            "title": "Department Council Member (Consiglio di Dipartimento)",
             "subtitle": "University of Turin - Department of Computer Science",
-            "description": "Representative of PhD Students in the Department Board.",
+            "description": "Representative of PhD Students in the Department Council.",
             "date": "2017 - 2019"
         }
     ]
