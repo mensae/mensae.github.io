@@ -2,7 +2,8 @@ function setupEventsFiltering(container) {
 	const EVENT_CATS = {
 		"academic": "academic",
 		"public": "public",
-		"media & interviews": "media"
+		"media": "media",
+		"training": "training"
 	};
 
 	const $container = $(container);

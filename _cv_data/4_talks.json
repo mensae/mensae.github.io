@@ -178,7 +178,7 @@
 				"date": "February 2017"
 			}
 	],
-	"Media & Interviews": [
+	"Media": [
 			{
 				"title": "Rai News 24",
 				"subtitle": "Appearance",
@@ -221,5 +221,19 @@
 				"url": "https://www.di.unito.it/~mensa/docs/2025_podcast_umAnI.pdf",
 				"date": "April 2025"
 			}
-	]
+		],
+	"Training": [
+			{
+				"title": "Consilia Associati (Turin)",
+				"subtitle": "Corporate Training Seminar & Workshop",
+				"description": "The seminar established the theoretical foundations and mental model needed to understand and use LLMs effectively; the workshop then applied these concepts through hands-on activities and discussion of specific use cases.",
+				"date": "2026"
+			},
+			{
+				"title": "Biogen Italia (Milan)",
+				"subtitle": "Corporate Training Seminar & Workshop",
+				"description": "The seminar provided foundational AI literacy and an introduction to LLMs; the workshop then explored their practical use through hands-on activities and discussion of specific use cases.",
+				"date": "2025"
+			}
+		]
 }

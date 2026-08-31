@@ -48,12 +48,11 @@
 					di <code>_cv_data/</code> — il nome è quello del file, senza numero né estensione
 					(<code>career</code>, <code>research</code>, <code>teaching</code>,
 					<code>talks</code>, <code>scicomm</code>, <code>publications</code>).
-					Le modifiche fatte qui valgono per la generazione successiva, non vengono salvate:
-					per renderle definitive vanno riportate in <code>latex.html</code>.
+					I sorgenti sono disponibili qui in sola lettura.
 				</p>
 
 				<label class="source-label" for="source-full">CV completo</label>
-				<textarea id="source-full" class="source-editor" spellcheck="false" rows="30">
+				<textarea id="source-full" class="source-editor" spellcheck="false" rows="30" readonly>
 %----------------------------------------------------------------------------------------
 %	PREAMBOLO
 %----------------------------------------------------------------------------------------
@@ -142,7 +141,7 @@
 </textarea>
 
 				<label class="source-label" for="source-publications">Solo pubblicazioni</label>
-				<textarea id="source-publications" class="source-editor" spellcheck="false" rows="14">
+				<textarea id="source-publications" class="source-editor" spellcheck="false" rows="14" readonly>
 \documentclass{resume}
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
@@ -184,8 +183,6 @@
 		<p>
 			Motore: pdfTeX 1.40.11 compilato in asm.js (<a href="https://github.com/manuels/texlive.js">texlive.js</a>),
 			con un sottoinsieme di TeX Live in <code>latex/texmf/</code>.
-			Dati e prima pagina in <code>_cv_data/</code>, classe in <code>latex/resume.cls</code>.
-			Dettagli in <code>latex/README.md</code>.
 		</p>
 	</footer>
 

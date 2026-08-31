@@ -67,7 +67,8 @@ function fillAnyCategory(container, cat_data) {
 				switch (subcat_name.toLowerCase()) {
 					case "academic":
 					case "public":
-					case "media & interviews":
+					case "media":
+					case "training":
 						content += buildSpeakerElem(elem, url, date, subcat_name);
 						break;
 					case "education":
@@ -185,9 +186,13 @@ function buildSpeakerElem(elem, url, date, subcat_name) {
 			labeltype = "label-event-public";
 			categorySlug = "public";
 			break;
-		case "media & interviews":
+		case "media":
 			labeltype = "label-event-media";
 			categorySlug = "media";
+			break;
+		case "training":
+			labeltype = "label-event-training";
+			categorySlug = "training";
 			break;
 	}
 

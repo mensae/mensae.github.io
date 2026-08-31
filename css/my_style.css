@@ -413,11 +413,13 @@
 .section[data-category="academic"] .title::before { background: #b8588a; }
 .section[data-category="public"]   .title::before { background: #4a8bbf; }
 .section[data-category="media"]    .title::before { background: #3d8c5a;; }
+.section[data-category="training"] .title::before { background: #c9972b; }
 
 /* keep the saturated category colors — only the dot is colored */
 .label-event-academic::before { background: #b8588a; }
 .label-event-public::before   { background: #4a8bbf; }
 .label-event-media::before    { background: #3d8c5a; }
+.label-event-training::before { background: #c9972b; }
 
 
 .filter-bar {
@@ -471,6 +473,7 @@ h2.category-header[data-category] { display: none; }/* category headers are neve
 body[data-active-filter="academic"] .section[data-category]:not([data-category="academic"]) { display: none; }
 body[data-active-filter="public"]   .section[data-category]:not([data-category="public"])   { display: none; }
 body[data-active-filter="media"]    .section[data-category]:not([data-category="media"])    { display: none; }
+body[data-active-filter="training"] .section[data-category]:not([data-category="training"]) { display: none; }
 
 
 
