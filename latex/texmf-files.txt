@@ -1,0 +1,133 @@
+# Elenco dei file di TeX Live che finiscono in latex/texmf/.
+#
+# È l'insieme dei file che pdfTeX apre davvero per compilare il CV (rilevato
+# osservando le richieste HTTP durante una compilazione), più un margine di
+# sicurezza sui font: ogni .tfm ha il suo .pfb, così qualsiasi corpo o stile
+# il documento decida di usare è comunque incorporabile nel PDF.
+#
+# Se una compilazione si ferma con "File ... not found" oppure "Font ... not
+# loadable", aggiungi qui il percorso e rilancia:
+#
+#   python3 build_texmf.py --source "$(kpsewhich -var-value=TEXMFROOT)"
+#
+# I percorsi sono relativi alla radice del bundle (latex/texmf/).
+
+# --- configurazione di kpathsea ---
+texmf.cnf
+texmf-dist/web2c/texmf.cnf
+
+# --- formato precompilato di LaTeX (kernel 2015, non sostituirlo) ---
+texmf-var/web2c/pdftex/latex.fmt
+
+# --- classe e kernel ---
+texmf-dist/tex/latex/base/article.cls
+texmf-dist/tex/latex/base/size11.clo
+texmf-dist/tex/latex/base/fontenc.sty
+texmf-dist/tex/latex/base/ifthen.sty
+texmf-dist/tex/latex/base/inputenc.sty
+texmf-dist/tex/latex/base/omsenc.dfu
+texmf-dist/tex/latex/base/ot1enc.dfu
+texmf-dist/tex/latex/base/t1enc.def
+texmf-dist/tex/latex/base/t1enc.dfu
+texmf-dist/tex/latex/base/utf8.def
+
+# --- pacchetti usati dal preambolo di main.tex ---
+texmf-dist/tex/latex/geometry/geometry.sty
+texmf-dist/tex/latex/lm/lmodern.sty
+texmf-dist/tex/latex/needspace/needspace.sty
+texmf-dist/tex/latex/parskip/parskip.sty
+texmf-dist/tex/latex/tools/array.sty
+texmf-dist/tex/latex/url/url.sty
+texmf-dist/tex/latex/wrapfig/wrapfig.sty
+
+# --- grafica (la foto della prima pagina) ---
+texmf-dist/tex/latex/graphics/color.sty
+texmf-dist/tex/latex/graphics/graphics.sty
+texmf-dist/tex/latex/graphics/graphicx.sty
+texmf-dist/tex/latex/graphics/keyval.sty
+texmf-dist/tex/latex/graphics/trig.sty
+texmf-dist/tex/latex/latexconfig/color.cfg
+texmf-dist/tex/latex/latexconfig/graphics.cfg
+texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+texmf-dist/tex/latex/pdftex-def/pdftex.def
+texmf-dist/tex/context/base/supp-pdf.mkii
+texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+texmf-dist/tex/latex/oberdiek/grfext.sty
+
+# --- hyperref e dipendenze ---
+texmf-dist/tex/latex/hyperref/hyperref.sty
+texmf-dist/tex/latex/hyperref/hpdftex.def
+texmf-dist/tex/latex/hyperref/nameref.sty
+texmf-dist/tex/latex/hyperref/pd1enc.def
+texmf-dist/tex/latex/latexconfig/hyperref.cfg
+texmf-dist/tex/latex/oberdiek/auxhook.sty
+texmf-dist/tex/latex/oberdiek/kvoptions.sty
+texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+texmf-dist/tex/generic/ifxetex/ifxetex.sty
+texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+
+# --- icone FontAwesome (il \faLink accanto ai titoli) ---
+texmf-dist/tex/latex/fontawesome/fontawesome.sty
+texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex
+texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex
+texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
+texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
+texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
+
+# --- Latin Modern: descrizioni dei font ---
+texmf-dist/tex/latex/lm/omllmm.fd
+texmf-dist/tex/latex/lm/omslmsy.fd
+texmf-dist/tex/latex/lm/omxlmex.fd
+texmf-dist/tex/latex/lm/ot1lmr.fd
+texmf-dist/tex/latex/lm/t1lmr.fd
+texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+
+# --- Latin Modern: metriche (.tfm) ---
+texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmbx8.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
+texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
+texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
+texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+texmf-dist/fonts/tfm/public/lm/lmmi6.tfm
+texmf-dist/fonts/tfm/public/lm/lmmi8.tfm
+texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
+texmf-dist/fonts/tfm/public/lm/lmsy8.tfm
+texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+
+# --- Latin Modern: contorni Type 1 (.pfb), uno per ogni .tfm qui sopra ---
+texmf-dist/fonts/type1/public/lm/lmbx8.pfb
+texmf-dist/fonts/type1/public/lm/lmbx10.pfb
+texmf-dist/fonts/type1/public/lm/lmbx12.pfb
+texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
+texmf-dist/fonts/type1/public/lm/lmr6.pfb
+texmf-dist/fonts/type1/public/lm/lmr8.pfb
+texmf-dist/fonts/type1/public/lm/lmr9.pfb
+texmf-dist/fonts/type1/public/lm/lmr10.pfb
+texmf-dist/fonts/type1/public/lm/lmr12.pfb
+texmf-dist/fonts/type1/public/lm/lmr17.pfb
+texmf-dist/fonts/type1/public/lm/lmri10.pfb
+texmf-dist/fonts/type1/public/lm/lmex10.pfb
+texmf-dist/fonts/type1/public/lm/lmmi6.pfb
+texmf-dist/fonts/type1/public/lm/lmmi8.pfb
+texmf-dist/fonts/type1/public/lm/lmmi10.pfb
+texmf-dist/fonts/type1/public/lm/lmsy6.pfb
+texmf-dist/fonts/type1/public/lm/lmsy8.pfb
+texmf-dist/fonts/type1/public/lm/lmsy10.pfb

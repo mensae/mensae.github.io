@@ -1,153 +1,204 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+	<meta charset="utf-8">
+	<title>Generatore CV — Enrico Mensa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 	<meta http-equiv="Pragma" content="no-cache">
-	<meta http-equiv="Expires" content="0">		
+	<meta http-equiv="Expires" content="0">
 
-	<style>
-		.bigcontainer {
-			padding:10px;
-			margin-bottom:20px;
-			border-left: 2px solid grey;
-		}
-
-		.button {
-			background-color: #4CAF50; /* Green */
-			border: none;
-			color: white;
-			padding: 15px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin-bottom:20px;
-			font-family: menlo;
-		}
-
-		.button {
-			transition-duration: 0.4s;
-		}
-
-		.button:hover {
-			background-color: #0c9711; /* Green */
-			color: white;
-		}		
-	</style>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CRoboto+Slab:400,700" rel="stylesheet" type="text/css">
+	<link href="css/latex_hub.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
+<div class="page">
 
+	<header class="page-head">
+		<h1>Generatore CV</h1>
+		<p id="engine-status" class="status status--busy">Avvio del motore LaTeX…</p>
+	</header>
 
-<a class="copy-text button" data-clipboard-target="#one" href="#">Copy</a>
+	<section class="variants" id="variants">
+		<!-- popolato da js/latex_hub.js a partire da VARIANTS -->
+	</section>
 
-<hr>
+	<section class="result" id="result" hidden>
+		<div class="result-head">
+			<h2 id="result-title">Documento</h2>
+			<div class="result-actions">
+				<a id="download-pdf" class="button button--primary" download>Scarica PDF</a>
+			</div>
+		</div>
+		<p id="result-meta" class="meta"></p>
+		<iframe id="preview" title="Anteprima del PDF"></iframe>
+	</section>
 
-<div id="one" class="bigcontainer">
-<pre><code>
+	<section class="panels">
+
+		<details id="source-panel">
+			<summary>Sorgenti LaTeX</summary>
+			<div class="panel-body">
+				<p class="panel-note">
+					Ogni versione è un documento completo: preambolo, intestazione e sezioni.
+					I segnaposto fra doppie graffe vengono sostituiti alla generazione con i dati
+					di <code>_cv_data/</code> — il nome è quello del file, senza numero né estensione
+					(<code>career</code>, <code>research</code>, <code>teaching</code>,
+					<code>talks</code>, <code>scicom</code>, <code>publications</code>).
+					Le modifiche fatte qui valgono per la generazione successiva, non vengono salvate:
+					per renderle definitive vanno riportate in <code>latex.html</code>.
+				</p>
+
+				<label class="source-label" for="source-full">CV completo</label>
+				<textarea id="source-full" class="source-editor" spellcheck="false" rows="30">
 %----------------------------------------------------------------------------------------
-%	Education and Academy Positions
-%----------------------------------------------------------------------------------------	
+%	PREAMBOLO
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % la classe sta in latex/resume.cls
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % margini
+\usepackage{lmodern}
+\normalfont % fissa la famiglia su Latin Modern prima che fontenc scelga il font:
+            % senza, pdfTeX cerca ecrm* che non è nel TeX Live ridotto
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+
+%----------------------------------------------------------------------------------------
+%	INTESTAZIONE
+%----------------------------------------------------------------------------------------
+
+\name{Enrico Mensa}
+\address{\href{http://www.di.unito.it/~mensa/}{https://www.di.unito.it/\textasciitilde mensa/}}
+\address{enrico.mensa@unito.it}
+
+\begin{document}
+
+\input{first_page.tex} % il profilo iniziale, in _cv_data/first_page.tex
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION AND ACADEMY POSITIONS
+%----------------------------------------------------------------------------------------
 
 \begin{mainSection}{Education and Academy Positions}{15}
 
-<span id="career-container"></span>
+{{career}}
 
 \end{mainSection}
-</code></pre>	
 
-
-<pre><code>
 %----------------------------------------------------------------------------------------
 %	RESEARCH
-%----------------------------------------------------------------------------------------	
+%----------------------------------------------------------------------------------------
 
 \begin{mainSection}{Research}{15}
 
-
 \begin{headSection}{Publications}{10}
 
-<span id="publications-container"></span>
+{{publications}}
+
 \end{headSection}
 
-<span id="research-container"></span>
-
+{{research}}
 
 \end{mainSection}
-</code></pre>	
-
-<pre><code>
 
 %----------------------------------------------------------------------------------------
 %	TEACHING
-%----------------------------------------------------------------------------------------	
+%----------------------------------------------------------------------------------------
 
 \begin{mainSection}{Teaching}{15}
-<span id="teaching-container"></span>
+
+{{teaching}}
+
 \end{mainSection}
-
-</code></pre>
-
-<pre><code>
 
 %----------------------------------------------------------------------------------------
 %	TALKS
-%----------------------------------------------------------------------------------------	
+%----------------------------------------------------------------------------------------
 
 \begin{mainSection}{Talks and Speeches}{15}
-<span id="talks-container"></span>
+
+{{talks}}
+
 \end{mainSection}
-
-</code></pre>
-
-
-<pre><code>
 
 %----------------------------------------------------------------------------------------
-%	SCICOMM
-%----------------------------------------------------------------------------------------	
+%	SCIENTIFIC COMMUNICATION
+%----------------------------------------------------------------------------------------
 
 \begin{mainSection}{Scientific Communication}{15}
-<span id="scicom-container"></span>
+
+{{scicom}}
+
 \end{mainSection}
 
-</code></pre>
+\end{document}
+</textarea>
+
+				<label class="source-label" for="source-publications">Solo pubblicazioni</label>
+				<textarea id="source-publications" class="source-editor" spellcheck="false" rows="14">
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{lmodern}
+\normalfont
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+
+\name{Enrico Mensa}
+\address{\href{http://www.di.unito.it/~mensa/}{https://www.di.unito.it/\textasciitilde mensa/}}
+\address{enrico.mensa@unito.it}
+
+\begin{document}
+
+\begin{mainSection}{Publications}{15}
+
+{{publications}}
+
+\end{mainSection}
+
+\end{document}
+</textarea>
+			</div>
+		</details>
+
+		<details id="log-panel">
+			<summary>Log di pdfTeX</summary>
+			<div class="panel-body">
+				<pre id="log-view"></pre>
+			</div>
+		</details>
+
+	</section>
+
+	<footer class="page-foot">
+		<p>
+			Motore: pdfTeX 1.40.11 compilato in asm.js (<a href="https://github.com/manuels/texlive.js">texlive.js</a>),
+			con un sottoinsieme di TeX Live in <code>latex/texmf/</code>.
+			Dati e prima pagina in <code>_cv_data/</code>, classe in <code>latex/resume.cls</code>.
+			Dettagli in <code>latex/README.md</code>.
+		</p>
+	</footer>
 
 </div>
-
-
-
-
 
 <script src="js/external/jquery.1.12.4.min.js"></script>
 <script src="js/bibtexParse.js"></script>
 <script src="js/general.js"></script>
+
 <script src="js/fill_latex.js"></script>
-<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
 
-					
-<script>
-	$(document).ready(function(){
+<script src="latex/pdftex-client.js"></script>
+<script src="js/latex_hub.js"></script>
 
-		getDataAndFill('LATEX', [
-			$("#publications-container"), 
-			$("#research-container"), 
-			$("#teaching-container"), 
-			$("#career-container"),
-			$("#talks-container"),
-			$("#scicom-container")
-		])
- 	}); 
-
-$(function(){
-  new Clipboard('.copy-text');
-});
-
-</script>
 </body>
 </html>
-

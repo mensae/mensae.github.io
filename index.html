@@ -68,7 +68,7 @@
 								<ul class="clearfix">
 									<li class="first-li">
 										<a href="#about" id="img_href">
-											<img id="profile_img" src="img/profile_2.jpg" alt=""/>
+											<img id="profile_img" src="img/profile_2.png" alt=""/>
 										</a>
 									</li>
 									<li><a  href="#publications"><i class="fas fa-book-open"></i>Publications<span></span></a></li>									
@@ -564,7 +564,7 @@
 				<div class="col-md-12">
 
 					<div class="main-title profile">
-						<h1 class="mb-20">Edutainment</h1>
+						<h1 class="mb-20">Science Communication</h1>
 					</div>
 				</div>
 			</div>
@@ -591,6 +591,16 @@
 
 </div>
 <!--End right content-->
+
+				<!--Large-screen page table of contents-->
+				<aside id="page-toc" class="page-toc" aria-label="Page contents">
+					<div class="page-toc-inner">
+						<nav aria-label="Sections on this page">
+							<ul></ul>
+						</nav>
+					</div>
+				</aside>
+				<!--End large-screen page table of contents-->
 
 
 
@@ -642,6 +652,16 @@
 
 
 $(document).ready(function(){
+	$('#wrapper').on('easytabs:before', function() {
+		clearPageTableOfContents();
+		resetPageScroll();
+	});
+
+	$('#wrapper').on('easytabs:after', function(event, clickedTab) {
+		var href = clickedTab.attr('href').substring(1);
+		resetPageScroll();
+		renderPageTableOfContents(href);
+	});
 
 	getDataAndFill('HTML', [
 		$("#publications-container"), 
@@ -652,6 +672,7 @@ $(document).ready(function(){
 		$("#scicom-container")
 	]).done(function() {
     	setupEventsFiltering("#talks-container");
+		setupPageTableOfContents();
 	});
 	
 	//parse get parameter for 

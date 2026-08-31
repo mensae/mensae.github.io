@@ -1,0 +1,10 @@
+% ls-R -- filename database for kpathsea; do not change this line.
+
+./:
+web2c
+
+./web2c:
+pdftex
+
+./web2c/pdftex:
+latex.fmt

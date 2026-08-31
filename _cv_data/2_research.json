@@ -107,67 +107,70 @@
     "Editorial Roles":
     [
         {
-            "title": "<us{https://link.springer.com/collections/gdifdjgjii}um{Reliability and Bias in LLM-as-a-Judge Approaches}ue> Collection Editor (in Discover Artificial Intelligence, Springer Nature)",
+            "title": "Reliability and Bias in LLM-as-a-Judge Approaches Collection (in Discover Artificial Intelligence, Springer Nature)",
             "subtitle": "Editor of a Collection",
+            "url": "https://link.springer.com/collections/gdifdjgjii",
             "date": "2026"
         },        
         {
-            "title": "<us{https://www.frontiersin.org/journals/artificial-intelligence/sections/language-and-computation}um{Language and Computation}ue> (section of Frontiers in Artificial Intelligence)",
+            "title": "Language and Computation (section of Frontiers in Artificial Intelligence)",
             "subtitle": "Review Editor on the Editorial Board",
-            "date": "2023 - ongoing"
+            "url": "https://www.frontiersin.org/journals/artificial-intelligence/sections/language-and-computation",
+            "date": "since 2023"
         },
         {
-            "title": "<us{https://www.frontiersin.org/research-topics/34038/information-extraction-for-health-documents/magazine}um{Information Extraction for Health Documents}ue> Editor (in Frontiers in Artificial Intelligence)",
+            "title": "Information Extraction for Health Documents (in Frontiers in Artificial Intelligence)",
             "subtitle": "Special Issue Editor",
+            "url": "https://www.frontiersin.org/research-topics/34038/information-extraction-for-health-documents/magazine",
             "date": "2022"
         }
     ] ,
     "Programme Committee Member":[  
         {
-            "title": "<us{https://sites.google.com/unical.it/hcaixia2026/committees}um{5th International AIxIA Workshop on Artificial Intelligence for Healthcare}ue>",
-            "subtitle": "Programme Committee member",
+            "title": "5th International AIxIA Workshop on Artificial Intelligence for Healthcare",
+            "url": "https://sites.google.com/unical.it/hcaixia2026/committees",            
             "date": "2026"
         },            
         {
-            "title": "<us{https://digitalheritage2025.unisi.it/}um{Digital Heritage (DH) World Congress & Expo}ue>",
-            "subtitle": "Programme Committee member",
+            "title": "Digital Heritage World Congress & Expo",
+            "url": "https://digitalheritage2025.unisi.it/",
             "date": "2025"
         },          
         {
-            "title": "<us{https://clic2025.unica.it/}um{CLiC-it 2025}ue> conference",
-            "subtitle": "Programme Committee member",
+            "title": "CLiC-it 2025",
+            "url": "https://clic2025.unica.it/",
             "date": "2025"
         },        
         {
-            "title": "<us{https://clic2024.ilc.cnr.it/}um{CLiC-it 2024}ue> conference",
-            "subtitle": "Programme Committee member",
+            "title": "CLiC-it 2024",
+            "url": "https://clic2024.ilc.cnr.it/",                
             "date": "2024"
         },        
         {
-            "title": "<us{https://2024-eu.semantics.cc/}um{SEMANTiCS 2024}ue> conference",
-            "subtitle": "Programme Committee member of the Research & Innovation track",
+            "title": "SEMANTiCS 2024 - Research & Innovation track",
+            "url": "https://2024-eu.semantics.cc/",
             "date": "2024"
         },
         {
-            "title": "<us{https://2023-eu.semantics.cc/}um{SEMANTICS 2023}ue>",
-            "subtitle": "Programme Committee member",            
+            "title": "SEMANTICS 2023",
+            "url": "https://2023-eu.semantics.cc/",
             "date": "2023"
         },        
         {
-            "title": "<us{https://bit.ly/3RW2M9c}um{EVALITA 2020 CONcreTEXT}ue> in CLiC-it 2020",
-            "subtitle": "Program Committee member",
+            "title": "EVALITA 2020 CONcreTEXT in CLiC-it 2020",
+            "url": "https://bit.ly/3RW2M9c",
             "date": "2020"
         }
     ],
     "reviewer":
     [ 
-        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization (UMAP)",
+        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization",
             "date": "2026"
         },           
-        {   "title": "European Conference on Artificial Intelligence (ECAI)",
+        {   "title": "European Conference on Artificial Intelligence",
             "date": "2025"
         },        
-        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization (UMAP)",
+        {   "title": "ACM International Conference on User Modeling, Adaptation and Personalization",
             "date": "2024"
         },
         {   "title": "SEMANTICS EU",
@@ -193,19 +196,19 @@
             "date": "2020"
         },        
         {
-            "title": "Conference on Computational Natural Language Learning (ConLL)",
+            "title": "Conference on Computational Natural Language Learning",
             "date": "2019"
         },
         {
-            "title": "34th ACM/SIGAPP Symposium On Applied Computing (SAC)",
+            "title": "34th ACM/SIGAPP Symposium On Applied Computing",
             "date": "2019"
         },  
         {
-            "title": "29th ACM Conference on Hypertext and Social Media (HT 18)",
+            "title": "29th ACM Conference on Hypertext and Social Media",
             "date": "2018"
         },  
         {
-            "title": "20th International Conference on Enterprise Information Systems (ICEIS)",
+            "title": "20th International Conference on Enterprise Information Systems",
             "date": "2017"
         },       
         {

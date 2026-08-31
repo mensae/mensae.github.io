@@ -36,7 +36,7 @@
             "title": "Fixed Term Research Fellow - Ricercatore a Tempo Determinato (RTDa)",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "RTDa funded on the PNNR project 'CHANGES' (Cultural Heritage Active Innovation For Next-Gen Sustainable Society)",
-            "date": "May 2023 - ongoing"
+            "date": "since May 2023"
         },        
         {
             "title": "Research Fellowship - Assegno di Ricerca",
@@ -80,12 +80,18 @@
             }
     ],
     "Academic Service": 
-    [
+    [        
         {
             "title": "Department Board Member",
             "subtitle": "University of Turin - Department of Computer Science",
             "description": "Representative of Fixed Term Researchers in the Department Board.",
-            "date": "October 2023 - ongoing"
+            "date": "since October 2023"
+        },
+        {
+            "title": "Department Board Member",
+            "subtitle": "University of Turin - Department of Computer Science",
+            "description": "Representative of Phd Students in the Department Board.",
+            "date": "2017 - 2019"
         }
     ]
 }

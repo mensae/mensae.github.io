@@ -132,7 +132,7 @@ function buildEducationElem(elem) {
 
 
 /**
-Fills the HTML for edutainment
+Fills the HTML for science communication
 */
 function buildScicomElem(elem) {
 	var content = "";
@@ -164,7 +164,7 @@ function buildScicomElem(elem) {
 }
 
 /**
-Fills the HTML for edutainment
+Fills the HTML for speaker element
 */
 function buildSpeakerElem(elem, url, date, subcat_name) {
 	content = "";
