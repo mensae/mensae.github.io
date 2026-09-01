@@ -225,15 +225,21 @@
 	"Training": [
 			{
 				"title": "Consilia Associati (Turin)",
-				"subtitle": "Corporate Training Seminar & Workshop",
+				"subtitle": "In-Company Training Seminar & Workshop",
 				"description": "The seminar established the theoretical foundations and mental model needed to understand and use LLMs effectively; the workshop then applied these concepts through hands-on activities and discussion of specific use cases.",
-				"date": "2026"
+				"date": "September 2026"
 			},
 			{
+				"title": "AXA Assicurazioni - Operation team (Milan)",
+				"subtitle": "In-Company Training Seminar",
+				"description": "The seminar focused on the background and theoretical foundations of LLMs.",
+				"date": "March 2026"
+			},			
+			{
 				"title": "Biogen Italia (Milan)",
-				"subtitle": "Corporate Training Seminar & Workshop",
+				"subtitle": "In-Company Training Seminar & Workshop",
 				"description": "The seminar provided foundational AI literacy and an introduction to LLMs; the workshop then explored their practical use through hands-on activities and discussion of specific use cases.",
-				"date": "2025"
+				"date": "December 2025"
 			}
 		]
 }
