@@ -1,10 +1,26 @@
 /* My CSS - Enrico Mensa*/
 
 
-/* Some horrible fixes */
-
 #profile_img {
     width:100%;
+}
+
+.latex-shortcut {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .latex-shortcut {
+        position: fixed;
+        z-index: 30;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+        cursor: default;
+    }
 }
 
 @media (max-width: 991px) {
@@ -575,7 +591,8 @@ h2 a:hover{
     border-color: transparent !important;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px)
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 .main-nav ul li a {
     font-size: 0px !important;
+}
 }

@@ -201,46 +201,89 @@ function setActivePageTableOfContentsLink(headingId) {
 
 
 /**
-* Builds the description of the publications depeding on the entry type.
+* Returns a trimmed BibTeX field, or an empty string when it is unavailable.
+*/
+function getBibField(entry, field) {
+	return entry.hasOwnProperty(field) && entry[field] !== null
+		? String(entry[field]).trim()
+		: "";
+}
+
+/**
+* Normalises both BibTeX month abbreviations and numeric month values.
+*/
+function formatBibMonth(month) {
+	var months = {
+		"1": "January", "01": "January", "jan": "January",
+		"2": "February", "02": "February", "feb": "February",
+		"3": "March", "03": "March", "mar": "March",
+		"4": "April", "04": "April", "apr": "April",
+		"5": "May", "05": "May", "may": "May",
+		"6": "June", "06": "June", "jun": "June",
+		"7": "July", "07": "July", "jul": "July",
+		"8": "August", "08": "August", "aug": "August",
+		"9": "September", "09": "September", "sep": "September",
+		"10": "October", "oct": "October",
+		"11": "November", "nov": "November",
+		"12": "December", "dec": "December"
+	};
+	var key = month.toLowerCase();
+	return months[key] || month;
+}
+
+/**
+* Builds a compact publication description from an explicit field whitelist.
+* Long or technical fields such as abstract, keywords and eprint are ignored.
 */
 function buildBibDescription(type, entry) {
-	var descr = "";
-	var address = entry.hasOwnProperty("address") && entry.address !== "";
-	var month = entry.hasOwnProperty("month") && entry.month !== "";
-	var year = entry.hasOwnProperty("year") && entry.year !== "";
+	var isArticle = type === "article";
+	var venue = getBibField(entry, isArticle ? "journal" : "booktitle");
+	var volume = getBibField(entry, "volume");
+	var number = getBibField(entry, "number");
+	var pages = getBibField(entry, "pages").replace(/(\d)\s*--?\s*(\d)/g, "$1–$2");
+	var address = getBibField(entry, "address");
+	var month = formatBibMonth(getBibField(entry, "month"));
+	var year = getBibField(entry, "year");
+	var note = getBibField(entry, "note");
+	var doi = getBibField(entry, "doi")
+		.replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+		.replace(/^doi:\s*/i, "")
+		.replace(/\\_/g, "_");
+	var isToAppear = entry.hasOwnProperty("toappear") || /^to appear$/i.test(note);
+	var parts = [];
 
-	var number = entry.hasOwnProperty("number") && entry.number !== ""? ", number "+entry.number: "";
-	var pages = entry.hasOwnProperty("pages") && entry.pages !== ""? " (pp. "+entry.pages+")": "";
-
-
-	if(entry.hasOwnProperty("toappear")) {
-		var where = (type === "article"? entry.journal:entry.booktitle);
-		descr += "To appear in "+where;
-
+	if (isToAppear) {
+		if (venue)
+			parts.push("To appear in " + venue);
+		if (year)
+			parts.push(year);
+	} else if (isArticle) {
+		if (venue)
+			parts.push(venue);
+		if (volume && volume !== "0")
+			parts.push("vol. " + volume);
+		if (number && number !== "0")
+			parts.push("no. " + number);
+		if (pages)
+			parts.push(/[-–]/.test(pages) ? "pp. " + pages : pages);
+		if (month || year)
+			parts.push([month, year].filter(Boolean).join(" "));
 	} else {
-		
-		var where = ""
-		if (type === "article") {
-			where = entry.journal
-			//console.log(entry.journal, entry.volume)
-			if (entry.volume) {
-				where += ", volume "+entry.volume+ number + pages
-			}
-		} else {
-			where = entry.booktitle
-		}
-		
-		if (!where.startsWith("In")) {
-			where = "In "+where
-		}
-
-		var descr = where+".";
-		if(address) 
-			descr += " "+entry.address;
-		if(month) 
-			descr += (address? ", ":" ")+entry.month;
-		if(year) 
-			descr += ((address||month)? ", ":" ")+entry.year;
+		if (venue)
+			parts.push(/^in\b/i.test(venue) ? venue : "In " + venue);
+		if (address)
+			parts.push(address);
+		if (month || year)
+			parts.push([month, year].filter(Boolean).join(" "));
+		if (pages)
+			parts.push(/[-–]/.test(pages) ? "pp. " + pages : pages);
 	}
+
+	var descr = parts.join(", ");
+	if (descr)
+		descr += ".";
+	if (doi)
+		descr += (descr ? " " : "") + "DOI: " + doi + ".";
+
 	return descr;
 }
