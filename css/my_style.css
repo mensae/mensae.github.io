@@ -163,6 +163,11 @@ body::-webkit-scrollbar,
 }
 
 @media (min-width: 1280px) {
+    /* Match the comfortable scale of 110% browser zoom on desktop only. */
+    body {
+        zoom: 1.1;
+    }
+
     .latex-shortcut {
         position: fixed;
         z-index: 30;
@@ -195,7 +200,7 @@ body::-webkit-scrollbar,
         padding-bottom: clamp(9px, 1.5vh, 23px) !important;
     }
 
-    .main-nav ul li a {
+    .main-nav ul li {
         border-right: 1px solid #eaeaea;
     }
 
@@ -297,6 +302,40 @@ body::-webkit-scrollbar,
 
 .main-nav ul li a {
     padding: 28px 0 !important;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/*
+ * The old active arrow needed a raised stacking level and a second, transformed
+ * green layer. With the arrow gone they can cover a one-pixel separator or be
+ * rounded differently by the GPU. Keep one solid active background and animate
+ * hover with a real width instead.
+ */
+.main-nav li a:before {
+    right: auto;
+    width: 0;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition-property: width;
+    transition-property: width;
+}
+
+.main-nav li a:hover:before,
+.main-nav li a:focus:before,
+.main-nav li a:active:before {
+    width: 100%;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.main-nav li a.active {
+    z-index: auto;
+}
+
+.main-nav li a.active:before {
+    content: none;
+    display: none;
 }
 
 #img_href {
