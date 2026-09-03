@@ -5,25 +5,27 @@
     width:100%;
 }
 
+/* Keep scrolling available without exposing browser scrollbars. */
+html,
+body,
+#wrapper .right-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#wrapper .right-content::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
 .latex-shortcut {
     display: none;
 }
 
-@media (min-width: 992px) {
-    .latex-shortcut {
-        position: fixed;
-        z-index: 30;
-        bottom: 0;
-        left: 0;
-        display: block;
-        width: 20px;
-        height: 20px;
-        opacity: 0;
-        cursor: default;
-    }
-}
-
-@media (max-width: 991px) {
+@media (max-width: 1279px) {
     html,
     body {
         height: 100%;
@@ -76,7 +78,7 @@
     }
 
     .main-nav li a.active {
-        border-left: 1px solid #eaeaea; 
+        border-left: 0;
     }
 
     .main-nav li a.active:after {
@@ -84,7 +86,38 @@
         display: none;
     }
 
-    .main-nav ul li a {
+    .main-nav ul {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+    }
+
+    .main-nav ul:before,
+    .main-nav ul:after {
+        display: none !important;
+        content: none !important;
+    }
+
+    .main-nav ul li {
+        float: none !important;
+        width: auto !important;
+        min-width: 0;
+        margin-bottom: 0;
+    }
+
+    .main-nav ul li + li {
+        border-left: 1px solid #eaeaea;
+    }
+
+    .main-nav ul li:after {
+        content: none !important;
+    }
+
+    #wrapper .main-nav ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 78px;
+        padding: 0 !important;
         font-size: 0 !important;
     }
 
@@ -93,9 +126,9 @@
     }
 
     .main-nav ul li a i {
-        width: 100%;
-        position: absolute;
-        margin-bottom: 0;
+        width: auto;
+        position: static;
+        margin: 0;
         text-align: center;
     }
 
@@ -107,19 +140,59 @@
     }
 }
 
+/* The medium-width top bar has enough room for both icons and labels. */
+@media (min-width: 992px) and (max-width: 1279px) {
+    #wrapper .main-nav ul li a {
+        flex-direction: column;
+        gap: 7px;
+        height: 96px;
+        /*padding: 8px 3px !important;*/
+        font-size: 13px !important;
+        line-height: 16px;
+        white-space: nowrap;
+    }
 
+    #profile_img {
+        height: 96px;
+    }
+}
 
-/* ---------------- */
+/* Full desktop layout: fixed side navigation, content and table of contents. */
+.page-toc {
+    display: none;
+}
 
-/* Keep the desktop navigation visible while the CV content scrolls. */
-@media (min-width: 992px) {
+@media (min-width: 1280px) {
+    .latex-shortcut {
+        position: fixed;
+        z-index: 30;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+        cursor: default;
+    }
+
     .left-content {
         position: -webkit-sticky;
         position: sticky;
         top: 50px;
         max-height: calc(100vh - 100px);
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow: hidden;
+    }
+
+    #profile_img {
+        display: block;
+        height: clamp(120px, 18vh, 201px);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #wrapper .main-nav ul li:not(.first-li) a {
+        padding-top: clamp(9px, 1.5vh, 23px) !important;
+        padding-bottom: clamp(9px, 1.5vh, 23px) !important;
     }
 
     .main-nav ul li a {
@@ -130,13 +203,7 @@
         content: none;
         display: none;
     }
-}
 
-.page-toc {
-    display: none;
-}
-
-@media (min-width: 1920px) {
     #wrapper > .container {
         width: 100%;
         max-width: 1610px;
@@ -163,13 +230,9 @@
     #wrapper .left-content {
         grid-column: 1;
         grid-row: 1;
+        align-self: start;
         justify-self: end;
         width: 180px !important;
-    }
-
-    #wrapper .main-nav ul li:not(.first-li) a {
-        padding-top: 23px !important;
-        padding-bottom: 23px !important;
     }
 
     #wrapper .right-content {
@@ -186,8 +249,7 @@
         position: sticky;
         top: 50px;
         max-height: calc(100vh - 100px);
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow: hidden;
     }
 
     .page-toc-inner {
