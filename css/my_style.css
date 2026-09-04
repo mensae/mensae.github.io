@@ -167,6 +167,9 @@ body::-webkit-scrollbar,
     body {
         zoom: 1.1;
     }
+}
+
+@media (min-width: 1280px) {
 
     .latex-shortcut {
         position: fixed;
