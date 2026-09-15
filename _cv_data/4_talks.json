@@ -181,7 +181,7 @@
 	"Media": [
 			{
 				"title": "Rai News 24",
-				"subtitle": "Appearance",
+				"subtitle": "TV Appearance - Expert Commentary",
 				"description": "A brief commentary for Rai News 24 on Apple's lawsuit against OpenAI, alleging trade secret theft related to OpenAI's entry into consumer hardware.",
 				"url": "https://www.di.unito.it/~mensa/docs/2026_rainews24openai.mp4",
 				"date": "July 2026"
@@ -195,7 +195,7 @@
 			},
 			{
 				"title": "Radio Rock FM 106.6",
-				"subtitle": "Radio Interview",
+				"subtitle": "Interview",
 				"description": "Invited as guest speaker for a segment titled 'AI: stato dell'arte e prossimo futuro', an interview exploring current developments in artificial intelligence and upcoming scenarios in the field.",
 				"url": "https://www.di.unito.it/~mensa/docs/2026_radiorock.pdf",
 				"date": "March 2026"
@@ -208,9 +208,9 @@
 				"date": "February 2026"
 			},
 			{
-				"title": "Fanpage.it - Request for Comment",
-				"subtitle": "Web Article",
-				"description": "A web article published on Fanpage.it requesting comments and opinions on the risks of hallucinations in AI systems.",
+				"title": "Fanpage.it",
+				"subtitle": "Web Article - Expert Commentary",
+				"description": "Provided expert commentary for a Fanpage.it article on the risks of hallucinations in AI systems.",
 				"url": "https://www.di.unito.it/~mensa/docs/2026_fanpage_article.pdf",
 				"date": "November 2025"
 			},
