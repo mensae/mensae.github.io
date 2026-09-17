@@ -180,6 +180,20 @@
 	],
 	"Media": [
 			{
+				"title": "Wilson – Il Post",
+				"subtitle": "Interview",
+				"description": "Invited as a guest on the podcast hosted by Il Post editor-in-chief Francesco Costa for an hour-long conversation on AI literacy, the fundamentals of language models, AI catastrophism, risks, and the debate over slowing AI development.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_wilson.pdf",
+				"date": "September 2026"
+			},
+			{
+				"title": "Fanpage.it",
+				"subtitle": "Web Article - Expert Commentary",
+				"description": "Provided expert commentary for a Fanpage.it article on the AI slowdown proposed by Dario Amodei.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_fanpage_article.pdf",
+				"date": "September 2026"
+			},		
+			{
 				"title": "Rai News 24",
 				"subtitle": "TV Appearance - Expert Commentary",
 				"description": "A brief commentary for Rai News 24 on Apple's lawsuit against OpenAI, alleging trade secret theft related to OpenAI's entry into consumer hardware.",
@@ -211,19 +225,19 @@
 				"title": "Fanpage.it",
 				"subtitle": "Web Article - Expert Commentary",
 				"description": "Provided expert commentary for a Fanpage.it article on the risks of hallucinations in AI systems.",
-				"url": "https://www.di.unito.it/~mensa/docs/2026_fanpage_article.pdf",
+				"url": "https://www.di.unito.it/~mensa/docs/2025_fanpage_article.pdf",
 				"date": "November 2025"
 			},
 			{
 				"title": "Antropochip (Bari)",
-				"subtitle": "Podcast",
+				"subtitle": "Interview",
 				"description": "Antropochip is a science communication initiative at Politecnico di Bari exploring the intersection of technology and human values through an innovative blend of coding and creative expression.",
 				"url": "https://www.di.unito.it/~mensa/docs/2025_podcast_antropochip.pdf",
 				"date": "July 2025"
 			},
 			{
 				"title": "Podcast UmAnI (Florence)",
-				"subtitle": "Podcast",
+				"subtitle": "Interview",
 				"description": "UmAnI is a podcast curated by the Department of Physics and Astronomy of the Università degli Studi di Firenze focused on the scientific dissemination for students.",
 				"url": "https://www.di.unito.it/~mensa/docs/2025_podcast_umAnI.pdf",
 				"date": "April 2025"
