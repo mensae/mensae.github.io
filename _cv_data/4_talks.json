@@ -1,6 +1,13 @@
 {
 	"Public": [
 			{
+				"title": "Digital Neuro Hub (Bologna)",
+				"subtitle": "Seminar",
+				"description": "Digital Neuro Hub is a training program on Digital Health, born from the partnership between SIN (Italian Society of Neurology) and Biogen, focused on the acquisition of new skills driven by technological innovation to improve care for patients with complex chronic neurological diseases. I delivered a talk titled 'AI Basics'",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_digital_neuro_hub_bolo.pdf",
+				"date": "September 2026"
+			},		
+			{
 				"title": "Digital Neuro Hub (Cascina Erbatici, Pavia)",
 				"subtitle": "Seminar",
 				"description": "Digital Neuro Hub is a training program on Digital Health, born from the partnership between SIN (Italian Society of Neurology) and Biogen, focused on the acquisition of new skills driven by technological innovation to improve care for patients with complex chronic neurological diseases. I delivered a talk titled 'Introduction to LLMs.'",
