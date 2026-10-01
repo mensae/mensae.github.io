@@ -1,6 +1,13 @@
 {
 	"Public": [
 			{
+				"title": "L'Era dell'AI (Aosta)",
+				"subtitle": "Panel",
+				"description": "L'Era dell'AI is a public event held at the Università della Valle d'Aosta and promoted by the Autonomous Region of Aosta Valley, exploring the challenges, opportunities and societal impact of artificial intelligence, from its origins and rapid evolution to its risks, effects on the labour market and use among teenagers. The event also marked the launch of AI VDA, the Region's free digital platform for AI training aimed at citizens.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_aivda.png",
+				"date": "September 2026"
+			},		
+			{
 				"title": "Digital Neuro Hub (Bologna)",
 				"subtitle": "Seminar",
 				"description": "Digital Neuro Hub is a training program on Digital Health, born from the partnership between SIN (Italian Society of Neurology) and Biogen, focused on the acquisition of new skills driven by technological innovation to improve care for patients with complex chronic neurological diseases. I delivered a talk titled 'AI Basics'",
