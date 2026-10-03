@@ -194,6 +194,13 @@
 	],
 	"Media": [
 			{
+				"title": "Giornale di Brescia",	
+				"subtitle": "Article - Expert Commentary",
+				"description": "Provided expert commentary for a Giornale di Brescia article on the risks of recursive self-improvement in AI systems.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_giornaledibrescia.pdf",
+				"date": "September 2026"
+			},
+			{
 				"title": "Wilson – Il Post",
 				"subtitle": "Interview",
 				"description": "Invited as a guest on the podcast hosted by Il Post editor-in-chief Francesco Costa for an hour-long conversation on AI literacy, the fundamentals of language models, AI catastrophism, risks, and the debate over slowing AI development.",
