@@ -273,6 +273,12 @@
 		],
 	"Training": [
 			{
+				"title": "Reale ITES (Turin)",
+				"subtitle": "In-Company Seminar",
+				"description": "Delivered to the Reale ITES group, the seminar introduced the fundamental concepts behind Large Language Models",				
+				"date": "October 2026"
+			},		
+			{
 				"title": "Banca Sella Holding (Biella)",
 				"subtitle": "In-Company Training Seminar",
 				"description": "Aimed at Banca Sella's managers, the seminar covered the core concepts of Large Language Models and explored practical ways to use them in their day-to-day work.",
