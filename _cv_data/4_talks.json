@@ -194,6 +194,13 @@
 	],
 	"Media": [
 			{
+				"title": "L'Edicola",
+				"subtitle": "Web Article - Interview",
+				"description": "Interviewed for L'Edicola on the opportunities and risks of AI, from cognitive inequalities and agent safety to regulation and disinformation.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_ledicola.pdf",
+				"date": "October 2026"
+			},
+			{
 				"title": "Rai News 24",
 				"subtitle": "TV Appearance - Expert Commentary",
 				"description": "A brief commentary for Rai News 24 on Anthropic's new usage policy banning sustained abuse of its Claude models, and the wider debate on AI consciousness and model welfare.",
