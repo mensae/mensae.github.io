@@ -1,6 +1,20 @@
 {
 	"Public": [
 			{
+				"title": "CICAP Fest 2026 (Padua)",
+				"subtitle": "Festival Talks",
+				"description": "CICAP Fest is the science and critical thinking festival organized by CICAP (Italian Committee for the Investigation of Claims of the Pseudosciences). I took part in two panels: 'Il Quizzone scientifico. Quante ne sai su acqua e intelligenza artificiale?', with Ruggero Rollini and Silvano Fuso; and 'I salti cognitivi: dalla mente umana alla razionalità artificiale' on the boundary between human and artificial rationality, with Vincenzo Crupi and Giorgio Gilestro, moderated by Emanuele Menietti.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_cicap.pdf",
+				"date": "November 2026"
+			},
+			{
+				"title": "CICAP Fest EDU 2026",
+				"subtitle": "Online Seminar for Schools",
+				"description": "CICAP Fest EDU is the education program of CICAP Fest, aimed at schools. In this online seminar for upper secondary school students, I explained what LLMs actually are, from their basic mechanisms to agents, and gave a short demo of NotebookLM for studying. Seminar title: 'Una metafora non basta: cosa sono effettivamente i Large Language Models?'.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_cicap_edu.pdf",
+				"date": "November 2026"
+			},
+			{
 				"title": "L'Era dell'AI (Aosta)",
 				"subtitle": "Panel",
 				"description": "L'Era dell'AI is a public event held at the Università della Valle d'Aosta and promoted by the Autonomous Region of Aosta Valley, exploring the challenges, opportunities and societal impact of artificial intelligence, from its origins and rapid evolution to its risks, effects on the labour market and use among teenagers. The event also marked the launch of AI VDA, the Region's free digital platform for AI training aimed at citizens.",
