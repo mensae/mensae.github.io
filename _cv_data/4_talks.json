@@ -208,6 +208,13 @@
 	],
 	"Media": [
 			{
+				"title": "Rai News 24",
+				"subtitle": "TV Appearance - Expert Commentary",
+				"description": "A brief commentary for Rai News 24 on the recent outage of Microsoft's services.",
+				"url": "https://www.di.unito.it/~mensa/docs/2026_rainews_outlook.mp4",
+				"date": "November 2026"
+			},	
+			{
 				"title": "L'Edicola",
 				"subtitle": "Web Article - Interview",
 				"description": "Interviewed for L'Edicola on the opportunities and risks of AI, from cognitive inequalities and agent safety to regulation and disinformation.",
