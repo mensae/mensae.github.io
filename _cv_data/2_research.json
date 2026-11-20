@@ -49,6 +49,12 @@
     
     [
         {
+            "title": "FuturoPresente",
+            "subtitle": "Role: member of the Scientific Committee",
+            "description": "The <us{https://www.opesitalia.it/futuropresente-progetto-ai-opes-2026/}um{project}ue> promotes an ethical and responsible approach to Artificial Intelligence within the Third Sector and sports associations across 19 Italian regions. The Scientific Committee drafts guidelines on the ethical and responsible use of AI for the education of young people. Led by OPES, funded by the Italian Ministry of Labour and Social Policies.",
+            "date": "since November 2026"
+        },        
+        {
             "title": "FUEL ECLI (FavoUring rEciprocaL access of Eu members states Courts to case-Law Indexed and translated) ",
             "subtitle": "Role: consultant for the project's computational and technological aspects",
             "description": "The <us{https://unifind.unito.it/resource/project/DECR%5FJUSTICE%5F26%5F01}um{project}ue> aims to facilitate cross-border access to EU case law through the large-scale indexing and automatic translation of national supreme court judgments. The Department of Computer Science at the University of Turin develops the multilingual semantic indexing system and neural search engine, enabling users to retrieve relevant legal content across languages and jurisdictions. Funded by the European Commission under the 2025 e-Justice call. Coordinator: Prof. Riccardo de Caria.",
